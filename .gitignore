@@ -1,0 +1,30 @@
+#############################
+# Ignore OS generated files #
+#############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+
+sitemap.xml
+sitemap.xml.gz
+*.log
+
+.idea/
+
+#############################
+# Ignore other root stuff
+#############################
+vendor/
+wp/
+
+composer.lock
+
+wp-content/*
+!wp-content/themes
+wp-content/themes/*
+!wp-content/themes/ehydrate
