@@ -1,6 +1,8 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-dist
+# MFers at roots made it wayyy too capistrano deploy based:
+# add dist folder to vc for now
+#dist
 bower_components
 node_modules
 npm-debug.log
