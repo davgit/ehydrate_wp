@@ -18,18 +18,9 @@ use Roots\Sage\Wrapper;
     ?>
     <div class="wrap" role="document">
       
-      <div class="main-hero">
-        <div class="hero" style="background-image:url(<?php echo dist_path('images/bgs/field-runners-comp-1300x866.jpg');?>);">
-          <div class="promo-copy container">
-            <span>Flavor By Nature.<br>Nutrition By Design.</span>
-            <hr class="copysep sep-half">
-            <a class="btn btn-blue btn-xlg" href="https://e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/">Try E-Hydrate for Free</a>
-          </div>
-          <!-- <div class="promo-copy container"></div> -->
-        </div>
-        <!-- https://e-hydrate.com/wp/wp-content/uploads/2015/04/fruit-water-splash-banner_1584x528-C.jpg -->
-      </div><!-- end main-hero -->
+      <?php get_template_part('templates/heroes/main-hero');?>
       
+      <?php get_template_part('templates/sections/sub-main-hero');?>
 
       <div class="container">
         <div class="content row">
@@ -41,8 +32,8 @@ use Roots\Sage\Wrapper;
               <?php include Wrapper\sidebar_path(); ?>
             </aside><!-- /.sidebar -->
           <?php endif; ?>
-        </div><!-- /.content -->
-      </div>
+        </div><!-- end .content -->
+      </div><!-- end .container -->
     </div><!-- /.wrap -->
     <?php
       get_template_part('templates/footer');

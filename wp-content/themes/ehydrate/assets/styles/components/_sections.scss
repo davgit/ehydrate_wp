@@ -1,0 +1,50 @@
+/* SECTIONS CSS */
+section {
+  	position: relative;
+	
+	@each $colorKey, $color in $brandColors {
+
+	  &.section-style-#{$colorKey} {
+	    background-color: $color;
+	    .section-header {
+	    	//color:map-get($brandColors, "gray_light");
+	    	color:darken($color,30%);
+	    }
+
+	    .copysep {
+	    	border-color:darken($color,14%);
+			opacity: 0.5;
+	    }
+
+	    p {
+	    	color:lighten($color,15%);
+	    	
+	    }
+	  }
+
+	  // &.ftc-#{$colorKey} {
+	  //   color: $color;
+	  // }
+
+	}
+
+	&.section-padded {
+    	padding-top:3.5rem;
+    	padding-bottom:3.5rem;
+    }	
+  
+  	&.section-padded-lg {
+    	padding-top:6rem;
+    	padding-bottom:6rem;
+  	}
+
+  	p {
+
+  	}
+
+}
+
+.section-header {
+	text-transform:uppercase;
+	font-weight:400;
+}
