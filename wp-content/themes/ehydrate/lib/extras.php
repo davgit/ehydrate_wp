@@ -34,7 +34,7 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 
 
 
-
+// see: https://wordpress.org/support/topic/emoji-and-smiley-js-and-css-added-to-head/page/2
 function disable_emojis() {
   remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
   remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
