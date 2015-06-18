@@ -1,0 +1,278 @@
+/* MIXINS */
+
+//@include navbar_style()
+@mixin navbar_style($styleName) {
+  
+  $navbarBaseClassName: '.navbar-' + $styleName;
+  $styleColor: map-get($brandColors, $styleName);
+  
+  // $navbar-default-bg --> $navBg
+  // $navbar-default-border --> $navBorderColor
+  // $navbar-default-brand-color --> $navBrandColor
+  // $navbar-default-brand-hover-color --> $navBrandHoverColor
+  // $navbar-default-brand-hover-bg --> $navBrandHoverBg
+  // $navbar-default-color --> $navColor
+  // $navbar-default-link-color --> $navLinkColor
+  // $navbar-default-link-hover-color --> $navLinkHoverColor
+  // $navbar-default-link-hover-bg --> $navLinkHoverBg
+  // $navbar-default-link-active-color --> $navLinkActiveColor
+  // $navbar-default-link-active-bg --> $navLinkActiveBg
+  // $navbar-default-link-disabled-color --> $navLinkDisabledColor
+  // $navbar-default-link-disabled-bg --> $navLinkDisabledBg
+  // $navbar-default-toggle-border-color --> $navToggleBorderColor
+  //  --> new: $navToggleBg
+  // $navbar-default-toggle-hover-bg --> $navToggleHoverBg
+  // $navbar-default-toggle-icon-bar-bg --> $navToggleIconBarBg
+  
+  $navBg: $styleColor;
+  $navBorderColor: transparent;
+  $navBrandColor: map-get($brandColors, "white");
+  $navBrandHoverBg: $navBg;
+  $navBrandHoverColor: lighten($navBrandColor, 4%);
+  $navColor: map-get($brandColors, "white");
+  $navLinkColor: map-get($brandColors, "white");
+  $navLinkHoverColor: lighten($navLinkColor, 4%);
+  $navLinkHoverBg: transparent;
+  $navLinkActiveColor: $navColor;
+  $navLinkActiveBg: darken($navBg, 4%);
+  $navLinkDisabledColor: darken($navColor, 10%);
+  $navLinkDisabledBg: transparent;
+  $navToggleBorderColor: transparent;
+  $navToggleBg: lighten($navBg, 3%);
+  $navToggleHoverBg: lighten($navToggleBg, 3%);
+  $navToggleIconBarBg: map-get($brandColors, "white");
+
+
+  #{$navbarBaseClassName} { //.navbar-default
+    &:not(.navbar-transparent)
+    {
+      background-color: $navBg;
+      border-color: $navBorderColor;
+
+      .navbar-brand {
+        color: $navBrandColor;
+        svg {
+          path { fill: $navBrandColor; }
+        }
+        &:hover,
+        &:focus {
+          color: $navBrandHoverColor;
+          background-color: $navBrandHoverBg;
+          svg {
+            path {
+              color: $navBrandHoverColor;
+            }
+          }
+        }
+      }
+
+      .navbar-text {
+        color: $navColor;
+      }
+
+      .navbar-nav {
+        > li > a {
+          color: $navLinkColor;
+
+          &:hover,
+          &:focus {
+            color: $navLinkHoverColor;
+            background-color: $navLinkHoverBg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navLinkActiveColor;
+            background-color: $navLinkActiveBg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navLinkDisabledColor;
+            background-color: $navLinkDisabledBg;
+          }
+        }
+      }
+
+      .navbar-toggle {
+        background-color: $navToggleBg;
+        border-color: $navToggleBorderColor;
+        &:hover,
+        &:focus {
+          background-color: $navToggleHoverBg;
+        }
+        .icon-bar {
+          background-color: $navToggleIconBarBg;
+        }
+      }
+
+      .navbar-collapse,
+      .navbar-form {
+        border-color: $navBorderColor;
+      }
+
+      // Dropdown menu items
+      .navbar-nav {
+        // Remove background color from open dropdown
+        > .open > a {
+          &,
+          &:hover,
+          &:focus {
+            background-color: $navLinkActiveBg;
+            color: $navLinkActiveColor;
+          }
+        }
+
+        @media (max-width: $grid-float-breakpoint-max) {
+          // Dropdowns get custom display when collapsed
+          .open .dropdown-menu {
+            > li > a {
+              color: $navLinkColor;
+              &:hover,
+              &:focus {
+                color: $navLinkHoverColor;
+                background-color: $navLinkHoverBg;
+              }
+            }
+            > .active > a {
+              &,
+              &:hover,
+              &:focus {
+                color: $navLinkActiveColor;
+                background-color: $navLinkActiveBg;
+              }
+            }
+            > .disabled > a {
+              &,
+              &:hover,
+              &:focus {
+                color: $navLinkDisabledColor;
+                background-color: $navLinkDisabledBg;
+              }
+            }
+          }
+        }
+      }
+
+      // Links in navbars
+      //
+      // Add a class to ensure links outside the navbar nav are colored correctly.
+
+      .navbar-link {
+        color: $navLinkColor;
+        &:hover {
+          color: $navLinkHoverColor;
+        }
+      }
+
+      .btn-link {
+        color: $navLinkColor;
+        &:hover,
+        &:focus {
+          color: $navLinkHoverColor;
+        }
+        &[disabled],
+        fieldset[disabled] & {
+          &:hover,
+          &:focus {
+            color: $navLinkDisabledColor;
+          }
+        }
+      }
+    }
+  }
+
+
+  #{$navbarBaseClassName} {
+    &.navbar-transparent {
+      background-color: transparent;
+      border-color: transparent;
+
+      .navbar-text {
+        color: $styleColor;
+      }
+
+      .navbar-nav {
+        > li > a {
+          color: $styleColor;
+
+          &:hover,
+          &:focus {
+            color: $styleColor;
+            background-color: transparent; //$navLinkHoverBg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $styleColor;
+            background-color: transparent; //$navLinkActiveBg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navLinkDisabledColor;
+            background-color: $navLinkDisabledBg;
+          }
+        }
+      }
+
+      .navbar-toggle {
+        background-color: $navToggleBg;
+        border-color: $navToggleBorderColor;
+        &:hover,
+        &:focus {
+          background-color: $navToggleHoverBg;
+        }
+        .icon-bar {
+          background-color: $navToggleIconBarBg;
+        }
+      }
+
+      .navbar-collapse,
+      .navbar-form {
+        border-color: $navBorderColor;
+      }
+      
+
+      .navbar-subnav-invert {
+        background-color: $navBg;
+        border-color: $navBorderColor;
+        > li > a {
+          color: $navLinkColor;
+
+          &:hover,
+          &:focus {
+            color: $navLinkHoverColor;
+            background-color: $navLinkHoverBg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navLinkActiveColor;
+            background-color: $navLinkActiveBg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: $navLinkDisabledColor;
+            background-color: $navLinkDisabledBg;
+          }
+        }
+        
+      }
+    }
+  }
+
+}

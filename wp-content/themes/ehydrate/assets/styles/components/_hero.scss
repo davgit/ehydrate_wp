@@ -1,0 +1,81 @@
+
+.hero {
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	max-width: 1920px;
+	padding-bottom: 35%;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	font-size: 0;
+	height:380px;
+	
+	.promo-copy {
+	  font-family: $font-family-sans-serif-alt;
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  bottom:0;
+	  padding: 32px 16px 70px 16px;
+	  color: #fff;
+	  // z-index: 1;
+	  font-weight: 400;
+	  font-size: 3.5rem;
+	  line-height: 5rem;
+	  text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	  text-transform: uppercase;
+
+		.copysep {
+			border-width: 2px;
+			opacity: 0.5;
+	   }
+	}
+
+}
+
+.main-hero {
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:100%;
+
+	.hero {
+
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	.hero {
+		padding-bottom: 0;
+		.promo-copy {
+		
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+	.hero {
+		padding-bottom: 0;
+  		height: 600px;
+  		.promo-copy {
+			font-size: 5rem;
+	  		line-height: 7rem;
+		}
+  	}
+}
+
+@media (min-width: $screen-lg-min) {
+	.hero {
+		padding-bottom: 0;
+  		height: 800px;
+  		.promo-copy {
+  			font-size: 6.3rem;
+  			line-height: 8rem;
+  		}
+  	}
+}
+

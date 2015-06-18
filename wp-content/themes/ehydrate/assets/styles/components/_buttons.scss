@@ -1,0 +1,13 @@
+/* Buttons */
+
+@each $colorKey, $color in $brandColors {
+      
+	&.btn-#{$colorKey} {
+         @include button-variant(lighten($color,40%), $color, transparent);
+	}
+}
+
+.btn-xlg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size( ($padding-large-vertical+2px), ($padding-large-horizontal + 2), ($font-size-large + 2), ($line-height-large+.2), ($border-radius-large));
+}

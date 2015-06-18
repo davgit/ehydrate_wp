@@ -1,0 +1,22 @@
+body {
+	// hack for now
+	min-height:2000px;
+}
+
+@each $colorKey, $color in $brandColors {
+	.ftc-#{$colorKey} {
+		color:$color;
+	}
+}
+
+.copysep {
+  	width: 100%;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+
+  	&.sep-half {
+  		width: 50%;
+		margin-left:0;
+		margin-right:20px;
+  	}
+}

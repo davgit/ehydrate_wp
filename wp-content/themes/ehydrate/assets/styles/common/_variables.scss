@@ -1,0 +1,78 @@
+
+$brandColors: (
+	"blue_light"	: #79b3d9,
+	"blue"			: #4886be,
+	"brown_light"	: #7b4935,
+	"brown"			: #663b28,
+	"red_light"		: #db2124,
+	"red"			: #b82725,
+	"pink_light"	: #e73f6d,
+	"pink"			: #b9234a,
+	"orange"		: #f98414,
+	"green"			: #7ec54a,
+	"purple"		: #69387f,
+	"white"			: #FAFAFA,
+	"gray_light"	: #f1f1f1,
+	"gray"			: #555555,
+	"gray_dark"		: #333333,
+	"black"			: #111111
+);
+
+
+// FONT AWESOME VARS
+$fa-font-path:        "../fonts";
+
+
+// bootstrap/framework related
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary: map-get($brandColors, "green");
+$brand-success: map-get($brandColors, "green"); 
+$brand-info:    map-get($brandColors, "blue_light");
+$brand-warning: map-get($brandColors, "orange");
+$brand-danger:  map-get($brandColors, "red");
+
+
+
+// Typography
+$font-family-sans-serif:  "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif-alt: "sofia-pro-soft", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-base:16px;
+
+
+// Basics of a navbar
+$navbar-height:                    66px !default;
+// $navbar-margin-bottom:             $line-height-computed !default;
+$navbar-border-radius:             0;
+// $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
+// $navbar-padding-vertical: (($navbar-height - $line-height-computed) / 2);     //(($navbar-height - $line-height-computed) / 2) !default;
+// $navbar-collapse-max-height:       340px !default;
+
+$navbar-default-color: #F9F9F9; //#777 !default;
+$navbar-default-bg: #4886bE; //#f8f8f8 !default;
+$navbar-default-border: transparent; //darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-link-color:#F9F9F9; //#777 !default;
+$navbar-default-link-hover-color:#FFFFFF; //#333 !default;
+// $navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:#F9F9F9; //#555 !default;
+// $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+// $navbar-default-link-disabled-color:       #ccc !default;
+// $navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+// $navbar-default-brand-color:               $navbar-default-link-color !default;
+// $navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+// $navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+// $navbar-default-toggle-hover-bg:           #ddd !default;
+// $navbar-default-toggle-icon-bar-bg:        #888 !default;
+// $navbar-default-toggle-border-color:       #ddd !default;
