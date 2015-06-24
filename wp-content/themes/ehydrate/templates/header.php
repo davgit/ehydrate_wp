@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand color-gray" href="<?php echo get_bloginfo('url');?>">
+          <a class="navbar-brand color-blue" href="<?php echo get_bloginfo('url');?>">
             <img alt="E-Hydrate" src="<?php echo dist_path('images/brand/logo/svg/ehydrate-logo-r-ffffff.svg');?>">
           </a>
         </div><!-- end .navbar-header -->
