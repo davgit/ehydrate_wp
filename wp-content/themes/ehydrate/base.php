@@ -16,12 +16,12 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div class="wrap" role="document">
+    <div class="wrap wrap-main" role="document">
       
       <div class="main-hero">
         <div class="hero" style="background-image:url(<?php echo dist_path('images/bgs/field-runners-comp-1300x866.jpg');?>);">
           <div class="promo-copy container">
-            <span>Flavor By Nature.<br>Nutrition By Design.</span>
+            <span>BASE TEMPLATE</span>
             <hr class="copysep sep-half">
             <a class="btn btn-blue btn-xlg" href="https://e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/">Try E-Hydrate for Free</a>
           </div>

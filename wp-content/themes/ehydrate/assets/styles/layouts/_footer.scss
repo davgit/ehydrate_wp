@@ -1,0 +1,123 @@
+/* FOOTER SASS */
+footer {
+	display:block;
+  	position: relative;
+
+	@each $colorKey, $color in $brandColors {
+
+	  &.footer-style-#{$colorKey} {
+	    background-color: $color;
+	    @include outputStyleForColor('color', $color, 15%);
+
+	    .footer-header {
+	    	color:darken($color,30%);
+	    }
+	    .copysep {
+	    	border-color:darken($color,14%);
+			opacity: 0.5;
+		}
+
+	    p, a {
+	    	@include outputStyleForColor('color', $color, 15%);
+	    }
+		
+		.footer-list-t1-header {
+			@include outputStyleForColor('color', $color, 45%);
+		}
+
+		.footer-signup {
+			.footer-signup-header {
+				@include outputStyleForColor('color', $color, 60%);
+			}
+		}
+
+	  }
+	  
+	}
+
+	&.footer-padded {
+    	padding-top:3.5rem;
+    	padding-bottom:3.5rem;
+    }	
+  
+  	&.footer-padded-lg {
+    	padding-top:6rem;
+    	padding-bottom:6rem;
+  	}
+
+	
+
+}
+
+.footer-list-t1-header {
+	display:block;
+	text-transform:uppercase;
+	margin:0 0 30px 0;
+	padding:0;
+}
+
+.footer-list-t1 {
+	display:block;
+	float: none;
+	list-style: none;
+	margin: 0;
+  	padding: 0;
+	
+	li {
+		display:block;
+		float: none;
+		margin: 18px 0;
+		list-style: none;
+		a {
+			&:hover {
+				text-decoration:none;
+			}
+		}
+	}
+}
+
+.footer-signup {
+	display:block;
+
+	.footer-signup-header {
+		display:block;
+		text-transform:uppercase;
+		margin:0 0 5px 0;
+		padding:0;
+		font-weight: 700;
+	}
+	.footer-signup-subcopy {
+		display:block;
+		margin:0 0 10px 0;
+		padding:0;
+		font-weight: 400;
+	}
+}
+
+.footer-signup-form {
+	display:block;
+	margin:0 0 2rem 0;
+	padding:0.6rem 0;
+
+	&.form-inline {
+		.form-group-email {
+			width: 70%;
+			input {
+				width:100%;
+			}
+		}
+	}
+}
+
+.footer-copyright {
+	p {
+		
+	}
+}
+
+.footer-disclaimer {
+	p {
+		font-size: 0.9em;
+		font-weight: 300;
+	}
+}

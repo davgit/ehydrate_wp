@@ -1,7 +1,16 @@
 body {
 	// hack for now
-	min-height:2000px;
+	//min-height:2000px;
 }
+
+.wrap {
+	display:block;
+	
+	&.wrap-main {
+		//margin-bottom: 60px;
+	}
+}
+
 
 @each $colorKey, $color in $brandColors {
 	.ftc-#{$colorKey} {
@@ -20,3 +29,11 @@ body {
 		margin-right:20px;
   	}
 }
+
+.strong {font-weight:700;}
+
+.ta-center {text-align:center;}
+.ta-left {text-align:left;}
+.ta-right {text-align:right;}
+
+

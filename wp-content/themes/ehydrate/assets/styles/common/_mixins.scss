@@ -1,5 +1,20 @@
 /* MIXINS */
 
+
+@mixin outputStyleForColor($property:'color', $color:#FC9, $pct:15%) {
+    $colorLightness: lightness($color);
+    $theColor: lighten($color,5%) !default;
+
+    @if $colorLightness > 50 {
+      $theColor: darken($color, $pct);
+    } @else {
+      $theColor: lighten($color, $pct);
+    }
+    
+    #{$property}:$theColor;
+}
+
+
 //@include navbar_style()
 @mixin navbar_style($styleName) {
   

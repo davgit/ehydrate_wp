@@ -1,6 +1,6 @@
 <header class="banner absolute" role="banner">
   
-    <nav class="navbar navbar-lg navbar-transparent navbar-pink_light">
+    <nav class="navbar navbar-lg navbar-transparent navbar-green">
       <div class="container">    
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary_nav_collapse_1">
@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand color-blue" href="<?php echo get_bloginfo('url');?>">
+          <a class="navbar-brand color-gray" href="<?php echo get_bloginfo('url');?>">
             <img alt="E-Hydrate" src="<?php echo dist_path('images/brand/logo/svg/ehydrate-logo-r-ffffff.svg');?>">
           </a>
         </div><!-- end .navbar-header -->

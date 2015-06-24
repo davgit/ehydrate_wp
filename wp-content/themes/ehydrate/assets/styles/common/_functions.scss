@@ -1,0 +1,21 @@
+@function set-style-color-from($color, $pct:15%) {
+    @if (lightness( $color ) > 50) {
+      //@return #000000; // Lighter color, return black
+      @return darken($color, 40%)
+    }
+    @else {
+      //@return #FFFFFF; // Darker color, return white
+      @return lighten($color, 40%)
+    }
+}
+
+
+// Add percentage of white to a color
+@function tint($color, $percent){
+  @return mix(white, $color, $percent);
+}
+ 
+// Add percentage of black to a color
+@function shade($color, $percent){
+  @return mix(black, $color, $percent);
+}

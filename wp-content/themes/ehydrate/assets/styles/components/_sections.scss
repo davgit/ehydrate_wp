@@ -7,8 +7,7 @@ section {
 	  &.section-style-#{$colorKey} {
 	    background-color: $color;
 	    .section-header {
-	    	//color:map-get($brandColors, "gray_light");
-	    	color:darken($color,30%);
+	    	@include outputStyleForColor('color', $color, 45%);
 	    }
 
 	    .copysep {
@@ -17,15 +16,11 @@ section {
 	    }
 
 	    p {
-	    	color:lighten($color,15%);
+	    	@include outputStyleForColor('color', $color, 25%);
 	    	
 	    }
 	  }
-
-	  // &.ftc-#{$colorKey} {
-	  //   color: $color;
-	  // }
-
+	  
 	}
 
 	&.section-padded {
@@ -38,13 +33,55 @@ section {
     	padding-bottom:6rem;
   	}
 
+  	&.section-padded-xl {
+    	padding-top:9rem;
+    	padding-bottom:9rem;
+  	}
+
+    &.section-padded-xxl {
+      padding-top:12rem;
+      padding-bottom:12rem;
+    }
+
   	p {
 
   	}
+
+
+  	&[data-section="sub-main-hero-one"] {
+  		padding-top:12rem;
+  		padding-bottom:12rem;
+
+  		.section-header {}
+  		.section-subheader {}
+
+  	}
+
+  	&[data-section="what-sport-do-i-play-main"] {
+      border-bottom: 1px solid #E2E2E2;
+
+      .section-header {
+        margin-top:5px;
+      }
+  	}
+
+  	&[data-section="kids-main"] {
+  		border-bottom: 1px solid #E2E2E2;
+  		
+      .section-header {
+      	margin-top:5px;
+      }
+    }
 
 }
 
 .section-header {
 	text-transform:uppercase;
 	font-weight:400;
+}
+.section-subheader {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
 }

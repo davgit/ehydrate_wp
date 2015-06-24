@@ -16,12 +16,14 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div class="wrap" role="document">
+    <div class="wrap wrap-main" role="document">
       
       <?php get_template_part('templates/heroes/main-hero');?>
       
       <?php get_template_part('templates/sections/sub-main-hero');?>
-
+      
+      <?php
+      /*
       <div class="container">
         <div class="content row">
           <main class="main" role="main">
@@ -34,6 +36,9 @@ use Roots\Sage\Wrapper;
           <?php endif; ?>
         </div><!-- end .content -->
       </div><!-- end .container -->
+      */
+      ?>
+      
     </div><!-- /.wrap -->
     <?php
       get_template_part('templates/footer');

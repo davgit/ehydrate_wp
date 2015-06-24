@@ -1,9 +1,18 @@
 /* Buttons */
 
 @each $colorKey, $color in $brandColors {
-      
+    
+    $colorLightness: lightness($color);
+    $newColor: lighten($color,5%) !default;
+
+    @if $colorLightness > 60 {
+      $newColor: darken($color, 30%);
+    } @else {
+      $newColor: lighten($color, 30%);
+    }
+
 	&.btn-#{$colorKey} {
-         @include button-variant(lighten($color,40%), $color, transparent);
+         @include button-variant($newColor, $color, transparent);
 	}
 }
 
