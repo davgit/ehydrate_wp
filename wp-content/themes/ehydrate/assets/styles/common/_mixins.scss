@@ -258,6 +258,9 @@
         border-color: $navBorderColor;
       }
       
+      .navbar-collapse {
+        background-color:$navBg;
+      }
 
       .navbar-subnav-invert {
         background-color: $navBg;
@@ -289,6 +292,12 @@
         }
         
       }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .navbar .navbar-collapse {
+      background-color:transparent!important;
     }
   }
 
