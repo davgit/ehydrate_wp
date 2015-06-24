@@ -15,34 +15,43 @@
         </div><!-- end .navbar-header -->
         <div class="collapse navbar-collapse" id="primary_nav_collapse_1">
 
-          <ul id="menu-header-main-socials" class="nav navbar-nav navbar-nav-socials navbar-subnav-invert rounded navbar-right">
-            <li class="menu-item">
-              <a href="https://www.facebook.com/ehydrate" target="_blank"><i class="fa fa-facebook-square"></i></a>
-            </li>
-            <li class="menu-item">
-              <a href="https://twitter.com/E_hydrate" target="_blank" class="link"><i class="fa fa-twitter-square"></i></a>
-            </li>
-            <li class="menu-item">
-              <a href="https://instagram.com/ehydratenutrition/" target="_blank" class="link"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li class="menu-item">
-              <a href="https://www.pinterest.com/ehydrate/" target="_blank" class="link"><i class="fa fa-pinterest"></i></a>
-            </li>
-            <li class="menu-item">
-              <a href="https://www.youtube.com/channel/UCgPWBj7cdjj1v6-5UN0k_gg" target="_blank" class="link"><i class="fa fa-youtube"></i></a>
-            </li>
-          </ul>
+          <div class="navbar-nav-wrap">
+            
+            <div class="made-in-usa"><img alt="Made In USA" src="<?php echo dist_path('images/misc/made-in-usa-wht-text.svg');?>"></div>
 
-          <?php
-          if (has_nav_menu('primary_navigation')) :
-            wp_nav_menu([
-              'theme_location' => 'primary_navigation',
-              'menu_class' => 'nav navbar-nav navbar-right',
-              'walker' => new wp_bootstrap_navwalker(),
-            ]);
-          endif;
-          ?>
+            <ul id="menu-header-main-socials" class="nav navbar-nav navbar-nav-socials navbar-subnav-trans-on-fixed navbar-blue navbar-right rounded">
+              <li class="menu-item">
+                <a href="https://www.facebook.com/ehydrate" target="_blank"><i class="fa fa-facebook-square"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="https://twitter.com/E_hydrate" target="_blank" class="link"><i class="fa fa-twitter-square"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="https://instagram.com/ehydratenutrition/" target="_blank" class="link"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.pinterest.com/ehydrate/" target="_blank" class="link"><i class="fa fa-pinterest"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.youtube.com/channel/UCgPWBj7cdjj1v6-5UN0k_gg" target="_blank" class="link"><i class="fa fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
           
+
+          <div class="navbar-nav-wrap">
+            <?php
+            if (has_nav_menu('primary_navigation')) :
+              wp_nav_menu([
+                'theme_location' => 'primary_navigation',
+                'menu_class' => 'nav navbar-nav navbar-right',
+                'walker' => new wp_bootstrap_navwalker(),
+              ]);
+            endif;
+            ?>
+          </div>
+
+
         </div>
       </div><!-- end .container -->
     </nav><!-- end .navbar -->

@@ -6,9 +6,9 @@
     $newColor: lighten($color,5%) !default;
 
     @if $colorLightness > 60 {
-      $newColor: darken($color, 30%);
+      $newColor: darken($color, 40%);
     } @else {
-      $newColor: lighten($color, 30%);
+      $newColor: lighten($color, 56%);
     }
 
 	&.btn-#{$colorKey} {

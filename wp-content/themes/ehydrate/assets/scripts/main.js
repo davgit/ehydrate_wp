@@ -123,8 +123,8 @@
       });
     },
     windowScrollTimer: function() {
-
-      $(window).scroll(function() {
+      var $window = $(window);
+      $window.scroll(function() {
           clearTimeout($.data(this, 'scrollTimer'));
           $.data(this, 'scrollTimer', setTimeout(function() {
               console.log("Fired scrollTimer after 140ms");
@@ -133,7 +133,7 @@
               UTIL.editNavbarClassesOnScroll($scrollTopPx);
           }, 140));
       });
-
+      $window.trigger('scroll');
     },
     editNavbarClassesOnScroll: function(scrollTopPx) {
       var stpx = (scrollTopPx) ? scrollTopPx : 0;

@@ -5,7 +5,7 @@
 
 
 	&.navbar-lg {
-		min-height: 120px;
+		min-height: 84px;
 	}
 	&.navbar-transparent {
 		.navbar-brand {
@@ -18,6 +18,14 @@
 					}
 				 }
 		  	}
+		}
+	}
+
+	&.navbar-fixed-top {
+		.navbar-nav {
+			&.navbar-subnav-trans-on-fixed {
+				background:transparent;
+			}
 		}
 	}
 }
@@ -54,7 +62,8 @@
 	.navbar {
 		&.navbar-lg {
 			.navbar-brand {
-				//width: auto;
+				max-width: 256px;
+				margin-top:0;
 			}
 
 			.navbar-nav {
@@ -66,8 +75,23 @@
 		
 		&.navbar-transparent {
 			&.navbar-lg {
+				
+				.navbar-brand {
+					max-width:300px;
+					margin-top:10px;
+				}
+				.navbar-nav-wrap {
+					float: none;
+					max-height: 50px;
+					&:first-child{
+						margin-top:10px;
+					}
+					&:last-child {
+						margin-right:0;
+					}
+				}
 				.navbar-nav {
-					margin-top:30px;
+					margin-top:2px;
 
 					> li > a {
 						font-size: 18px; //$font-size-large;
@@ -77,33 +101,72 @@
 
 					&.navbar-nav-socials {
 						margin-left: 10px;
+						margin-right: 10px;
 						padding-left:0;
 						padding-right:0;
 						border-left:none;
+						border-right:none;
 
 						> li > a {
-							padding-left: 6px;
-							padding-right: 6px;
+							padding-left: 8px;
+							padding-right: 8px;
 							font-size: 22px;
 							line-height: 22px;
 						}
+
+						&:first-child {
+							> li > a {
+								padding-left: 12px;
+							}
+						}
+						&:last-child {
+							> li > a {
+								padding-right: 12px;
+							}
+						}
 					}
 				}
+
+				.made-in-usa {
+					margin-top:4px;
+					padding-left:0;
+  					border-left:none;
+				}
+
 			}
 		}
 
 
 	}
+	
+	.navbar-nav-wrap {
+		display:block;
+		float: right;
+		text-align: right;
+		@include clearfix;
+		&:first-child{
+			margin-top:0;
+		}
+		&:last-child {
+			margin-right:15px;
+		}
+	}
 
 	.navbar-nav {
+
 		> li > a {
 			font-size: ceil(($font-size-large * .80));//$font-size-large;
 		}
+		
+
+
 	  	&.navbar-nav-socials {
 			margin-left: 10px;
+			margin-right:10px;
 			padding-left: 10px;
 			border-left:1px solid rgba(255,255,255,.30);
-
+			border-right:1px solid rgba(255,255,255,.30);
+			
 			> li > a {
 				padding:18px 7px;
 				font-size: 24px;
@@ -135,6 +198,7 @@
 
 					&.navbar-nav-socials {
 						margin-left: 20px;
+						margin-right: 20px;
 						padding-left:2px;
 						padding-right:2px;
 						> li > a {

@@ -1,11 +1,10 @@
-@function set-style-color-from($color, $pct:15%) {
-    @if (lightness( $color ) > 50) {
+@function getComplementBrandColorFromColor($color, $pct:15%) {
+    @if (lightness( $color ) > 60) {
       //@return #000000; // Lighter color, return black
       @return darken($color, 40%)
-    }
-    @else {
+    } @else {
       //@return #FFFFFF; // Darker color, return white
-      @return lighten($color, 40%)
+      @return lighten($color, 56%)
     }
 }
 

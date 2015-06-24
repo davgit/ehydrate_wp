@@ -21,6 +21,7 @@ header {
 
 	.navbar-brand {
 		padding:($navbar-padding-vertical - 16) $navbar-padding-horizontal ($navbar-padding-vertical - 12);
+		max-width:196px;
 		height: auto;
 		> img {
 			display: block;
@@ -29,7 +30,7 @@ header {
 			max-width: 100%;
 		}
 		> svg {
-			width: 234px;
+			width: 100%;
   			height: auto;
   			display: block;
 			
@@ -46,9 +47,18 @@ header {
 	.navbar-fixed-top {
 		.navbar-brand {
 			> svg {
-				width:166px;
+				//width:100%;
 			}
 		}
+	}
+
+
+	.made-in-usa {
+		position: relative;
+		float: right;
+		width:48px;
+		margin-top:18px;
+		padding-left: 10px;
 	}
 }
 
@@ -57,7 +67,7 @@ header {
 
 	.navbar {
 		.navbar-brand {
-			width: 80px;
+			width: 100%;
 			overflow: hidden;
 			> svg {
 				path {

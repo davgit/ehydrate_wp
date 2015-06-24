@@ -5,6 +5,9 @@
         "scripts/main.js"
       ],
       "bower": ["vide"],
+      "vendor": [
+        "bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"
+      ],
       "main": true
     },
     "main.css": {

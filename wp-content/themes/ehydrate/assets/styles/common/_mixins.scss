@@ -44,9 +44,9 @@
   $navBrandColor: map-get($brandColors, "white");
   $navBrandHoverBg: $navBg;
   $navBrandHoverColor: lighten($navBrandColor, 4%);
-  $navColor: map-get($brandColors, "white");
-  $navLinkColor: map-get($brandColors, "white");
-  $navLinkHoverColor: lighten($navLinkColor, 4%);
+  $navColor: getComplementBrandColorFromColor($styleColor); //map-get($brandColors, "white");
+  $navLinkColor: getComplementBrandColorFromColor($styleColor);
+  $navLinkHoverColor: lighten($navLinkColor, 7%);
   $navLinkHoverBg: transparent;
   $navLinkActiveColor: $navColor;
   $navLinkActiveBg: darken($navBg, 4%);
@@ -63,6 +63,7 @@
     {
       background-color: $navBg;
       border-color: $navBorderColor;
+      @include outputStyleForColor('color', $styleColor, 40%);
 
       .navbar-brand {
         color: $navBrandColor;
@@ -206,14 +207,15 @@
     &.navbar-transparent {
       background-color: transparent;
       border-color: transparent;
-
+      color:inherit;
+      
       .navbar-text {
-        color: $styleColor;
+        color: inherit;//$styleColor;
       }
 
       .navbar-nav {
         > li > a {
-          color: $styleColor;
+          color: $navLinkColor; //$styleColor;
 
           &:hover,
           &:focus {
@@ -225,7 +227,7 @@
           &,
           &:hover,
           &:focus {
-            color: $styleColor;
+            color: $navLinkColor; //$styleColor;
             background-color: transparent; //$navLinkActiveBg;
           }
         }
