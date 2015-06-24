@@ -4,6 +4,7 @@
       "files": [
         "scripts/main.js"
       ],
+      "bower": ["vide"],
       "main": true
     },
     "main.css": {

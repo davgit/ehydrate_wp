@@ -61,12 +61,15 @@
 	</div><!-- end .footer-one -->
 	<div class="footer-two container">
 		<div class="row">
-			<div class="col-md-7">
-				
+			<div class="col-md-6 col-md-offset-3">
+				<div class="footer-payment-icons">
+					<span class="pf pf-visa"></span>
+					<span class="pf pf-american-express"></span>
+					<span class="pf pf-mastercard"></span>
+					<span class="pf pf-discover"></span>
+					<span class="pf pf-jcb"></span>
+				</div><!-- end .footer-payment-icons -->
 			</div><!-- end col -->
-			<div class="col-md-5">
-				
-			</div>
 		</div><!-- end .row -->
 	</div><!-- end .footer-two -->
 </footer><!-- end footer -->

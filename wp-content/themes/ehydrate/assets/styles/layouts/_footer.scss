@@ -45,8 +45,13 @@ footer {
     	padding-bottom:6rem;
   	}
 
+	.footer-one {
+		margin-bottom: 3rem;
+	}
 	
-
+	.footer-two {
+		margin-bottom: 3rem;
+	}
 }
 
 .footer-list-t1-header {
@@ -119,5 +124,17 @@ footer {
 	p {
 		font-size: 0.9em;
 		font-weight: 300;
+	}
+}
+
+.footer-payment-icons {
+	display:block;
+	> span {
+		display: inline-block;
+		font-size: 32px;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		margin: 30px 16px 0 16px;
 	}
 }

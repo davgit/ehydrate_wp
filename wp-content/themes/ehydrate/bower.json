@@ -11,7 +11,8 @@
     "jquery": "1.11.2",
     "bootstrap-sass-official": "3.3.4",
     "fontawesome": "~4.3.0",
-    "paymentfont": "~1.1.2"
+    "paymentfont": "~1.1.2",
+    "vide": "~0.3.5"
   },
   "overrides": {
     "modernizr": {

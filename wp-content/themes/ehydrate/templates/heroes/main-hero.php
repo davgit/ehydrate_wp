@@ -1,5 +1,6 @@
-<div class="main-hero">
-  <div class="hero" style="background-image:url(<?php echo dist_path('images/bgs/field-runner-1440x960-comp.jpg');?>);">
+<div id="main-hero-home" class="main-hero">
+  <div class="hero hero-video">
+  	<?php /*style="background-image:url(<?php echo dist_path('images/bgs/field-runner-1440x960-comp.jpg');?>);" */ ?>
     <div class="promo-copy container">
       <span>Flavor By Nature.<br>Nutrition By Design.</span>
       <hr class="copysep sep-half">
