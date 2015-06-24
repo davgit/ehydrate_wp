@@ -100,8 +100,6 @@
 
 
 <?php
-$test=0293029302930293293029302930293029302930293029302930293029302930293029302930293029302930293029302930293029302930293029302930293023;
-$test2 = '';
 /*
 <section data-section="sub-main-hero-three" class="section-padded-lg section-style-gray_light">
 	<div class="container">
