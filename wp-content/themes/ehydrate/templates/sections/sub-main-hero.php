@@ -14,7 +14,7 @@
     <div class="container-no-pad">
         <div class="content row-fluid">
             <div class="product-row">
-                <div class="product-col product-col-md-4" data-producttype="protein-on-the-go">
+                <div class="product-col product-col-md-2" data-producttype="protein-on-the-go">
                     <div class="product-text">
                         <h5 class="product-text-header"><?php _e('Protein On The Go', 'sage');?></h5>
                         <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit.</p>
@@ -22,7 +22,7 @@
                     </div>
                     <a class="product-link btn btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Try E-Hydrate Proteins</a>
                 </div><!-- end .product-col -->
-                <div class="product-col product-col-md-4" data-producttype="adult-hydration">
+                <div class="product-col product-col-md-2" data-producttype="adult-hydration">
                     <div class="product-text">
                         <h5 class="product-text-header"><?php _e('Adult Hydration', 'sage');?></h5>
                         <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
@@ -30,7 +30,7 @@
                     </div>
                     <a class="product-link btn btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Adult</a>
                 </div><!-- end .product-col -->
-                <div class="product-col product-col-md-4" data-producttype="kids-hydration">
+                <div class="product-col product-col-md-2" data-producttype="kids-hydration">
                     <div class="product-text">
                         <h5 class="product-text-header"><?php _e('Kids Hydration', 'sage');?></h5>
                         <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, odio!</p>
@@ -38,7 +38,7 @@
                     </div>
                     <a class="product-link btn btn-pink" href="#">Try E-Hydrate Kids</a>
                 </div><!-- end .product-col -->
-                <div class="product-col product-col-md-4" data-producttype="gels">
+                <div class="product-col product-col-md-2" data-producttype="gels">
                     <div class="product-text">
                         <h5 class="product-text-header"><?php _e('Gels', 'sage');?></h5>
                         <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, veniam.</p>
@@ -98,7 +98,11 @@
     </div><!-- end .container -->
 </section><!-- end section -->
 
-<?php /*
+
+<?php
+$test=0293029302930293293029302930293029302930293029302930293029302930293029302930293029302930293029302930293029302930293029302930293023;
+$test2 = '';
+/*
 <section data-section="sub-main-hero-three" class="section-padded-lg section-style-gray_light">
 	<div class="container">
         <div class="content row">
@@ -123,4 +127,4 @@
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
-*/ ?>
+*/?>
