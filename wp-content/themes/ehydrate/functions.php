@@ -21,6 +21,12 @@ $sage_includes = [
   'lib/wp_bootstrap_navwalker.php',// Bootstrap nav restored
 ];
 
+if ( file_exists(  __DIR__ . '/lib/cmb2/init.php' ) ) {
+  //require_once  __DIR__ . '/cmb2/init.php';
+  $sage_includes[] = 'lib/cmb2/init.php';
+  $sage_includes[] = 'lib/cmb2.php';
+} 
+
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
     trigger_error(sprintf(__('Error locating %s for inclusion', 'sage'), $file), E_USER_ERROR);
