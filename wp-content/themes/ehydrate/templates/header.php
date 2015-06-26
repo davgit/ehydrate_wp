@@ -14,7 +14,7 @@
           </a>
         </div><!-- end .navbar-header -->
         <div class="collapse navbar-collapse" id="primary_nav_collapse_1">
-
+          
           <div class="navbar-nav-wrap">
             
             <div class="made-in-usa"><img alt="Made In USA" src="<?php echo dist_path('images/misc/made-in-usa-wht-text.svg');?>"></div>
@@ -37,8 +37,8 @@
               </li>
             </ul>
           </div>
-          
 
+          
           <div class="navbar-nav-wrap">
             <?php
             if (has_nav_menu('primary_navigation')) :
@@ -51,6 +51,8 @@
             ?>
           </div>
 
+
+          
 
         </div>
       </div><!-- end .container -->
