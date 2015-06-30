@@ -66,6 +66,7 @@ function asset_path($filename) {
 }
 
 function assets() {
+  wp_enqueue_style('google_font_lato_css', '//fonts.googleapis.com/css?family=Lato:100,300,400,700,900', false, null);
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
@@ -79,6 +80,8 @@ add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
 
 
 // LD Edit
+// Using Lato from Google Fonts instead of typekit.
+// action commented out below
 function add_typekit_js_from_php_file()
 { 
   // file method:
@@ -99,4 +102,4 @@ function add_typekit_js_from_php_file()
 
   echo $js;
 }
-add_action('wp_head', __NAMESPACE__ . '\\add_typekit_js_from_php_file');
+//add_action('wp_head', __NAMESPACE__ . '\\add_typekit_js_from_php_file');
