@@ -153,13 +153,13 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo 'https://placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LINEUP&w=380&h=460';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('Gels', 'sage');?>">
+                                    <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LINEUP&w=380&h=460';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('Gels', 'sage');?>">
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo 'https://placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
+                                        <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, dicta, ullam!</p>
@@ -204,7 +204,7 @@
             </div>
             <div class="col-md-7">
                 <div class="vid-wrap">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?bg=CCCCCC&txtsize=33&txt=Video:%20WHAT%20SPORT%20DO%20I%20PLAY&w=960&h=540">      
+                    <img class="img-responsive" src="//placeholdit.imgix.net/~text?bg=CCCCCC&txtsize=33&txt=Video:%20WHAT%20SPORT%20DO%20I%20PLAY&w=960&h=540">      
                 </div>
             </div>
         </div><!-- end .row -->
@@ -217,7 +217,7 @@
         <div class="content row">
             <div class="col-md-7">
                 <div class="vid-wrap">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?bg=CCCCCC&txtsize=33&txt=Video:%20KIDS&w=960&h=540">      
+                    <img class="img-responsive" src="//placeholdit.imgix.net/~text?bg=CCCCCC&txtsize=33&txt=Video:%20KIDS&w=960&h=540">      
                 </div>
             </div>
             <div class="col-md-5">
