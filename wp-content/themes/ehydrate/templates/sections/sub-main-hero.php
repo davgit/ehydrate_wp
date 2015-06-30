@@ -29,8 +29,8 @@
     <div class="container-no-pad">
         <div class="content row-fluid">
             <div class="product-row">
+                
                 <div class="product-col product-col-md-1" data-producttype="protein-on-the-go">
-                    
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
@@ -55,7 +55,6 @@
                                             <span class="nutr-type">Sugar</span>
                                         </div>
                                     </div>
-
                                     <br>
                                     <br>
                                     <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Try E-Hydrate Proteins</a>
@@ -69,14 +68,44 @@
                         </div><!-- end .row -->
                     </div><!-- end .container -->
                 </div><!-- end .product-col -->
-
+                
                 <div class="product-col product-col-md-1" data-producttype="adult-hydration">
-                    <div class="product-text">
-                        <h5 class="product-text-header"><?php _e('Adult Hydration', 'sage');?></h5>
-                        <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
-                        <hr class="copysep sep-half">
-                    </div>
-                    <a class="product-link btn btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Adult</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="product-line-product-img-wrap">
+                                    <img src="<?php echo dist_path('/images/brand/product-lines/adult-hydration/product-adult-hydration--380x380.png');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-product-img"  title="<?php _e('Protein On The Go', 'sage');?>">>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="product-text">
+                                    <h5 class="product-text-header">
+                                        <img src="<?php echo dist_path('/images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                    </h5>
+                                    <hr class="copysep sep-half">
+                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
+                                    <hr class="copysep sep-half">
+                                    <div class="product-nutr-sqaures">
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">4</span>
+                                            <span class="nutr-type">Calories</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">1g</span>
+                                            <span class="nutr-type">Carbs</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">0g</span>
+                                            <span class="nutr-type">Sugar</span>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <a class="product-link btn btn-lg btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Drink Mixes</a>
+                                </div>
+                            </div>
+                        </div><!-- end .row -->
+                    </div><!-- end .container -->
                 </div><!-- end .product-col -->
 
                 <div class="product-col product-col-md-1" data-producttype="kids-hydration">

@@ -74,13 +74,9 @@
 
 		}
 		&[data-producttype="adult-hydration"] {
-			background-color:tint(map-get($brandColors, "orange"), 80%);
-			//background-image: url('https://placeholdit.imgix.net/~text?bg=FAFAFA&txtsize=33&txt=%20&w=720&h=404');
-			.copysep {
-				@include outputStyleForColor('border-color', map-get($brandColors, "orange"), 15%);
-				// opacity: 1;
-			}
+			background-image: url('../images/bgs/product-line-bgs/adult-hydration--from-5755--1200x545.jpg');
 		}
+
 		&[data-producttype="kids-hydration"] {
 			background-color:tint(map-get($brandColors, "pink"), 80%);
 			//background-image: url('https://placeholdit.imgix.net/~text?bg=FAFAFA&txtsize=33&txt=%20&w=720&h=404');
@@ -122,7 +118,10 @@
 	}
 	
 	.product-line-logo-img {
-		
+		display: block;
+		max-width: 100%;
+		height: auto;
+		min-width:448px;
 	}
 	
 	.product-line-product-img-wrap {
