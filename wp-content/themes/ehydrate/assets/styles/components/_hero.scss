@@ -21,13 +21,8 @@
 	  bottom:0;
 	  padding: 32px 16px 70px 16px;
 	  color: #fff;
-	  // z-index: 1;
 	  font-weight: 400;
-	  font-size: 3.5rem;
-	  line-height: 5rem;
-	  text-shadow: 0 1px 1px rgba(0,0,0,0.25);
-	  text-transform: uppercase;
-		
+
 		&.pos-bottom-20pct {
 			bottom:20%;
 		}
@@ -39,6 +34,14 @@
 				margin-right:auto;
 			}
 		}
+		.headline-main {
+			font-size: 3.5rem;
+	  		line-height: 5rem;
+	  		font-weight:900;
+	  		text-transform: uppercase;
+	  		text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+		}
+
 		.copysep {
 			margin-top: 20px;
   			margin-bottom: 20px;
@@ -75,8 +78,10 @@
 		padding-bottom: 0;
   		height: 600px;
   		.promo-copy {
-			font-size: 5rem;
-	  		line-height: 7rem;
+  			.headline-main {
+				font-size: 5rem;
+	  			line-height: 7rem;
+	  		}
 		}
   	}
 }
@@ -86,8 +91,10 @@
 		padding-bottom: 0;
   		height: 800px;
   		.promo-copy {
-  			font-size: 6.3rem;
-  			line-height: 8rem;
+  			.headline-main {
+  				font-size: 6.3rem;
+  				line-height: 8rem;
+  			}
   		}
   	}
 }
