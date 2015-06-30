@@ -1,0 +1,24 @@
+/* Animations SASS */
+
+@-webkit-keyframes color-animate-from-blue {
+      0% {color: map-get($brandColors, "blue");}
+     25% {color: map-get($brandColors, "purple");}
+     50% {color: map-get($brandColors, "pink");}
+     75% {color: map-get($brandColors, "green");}
+    100% {color: map-get($brandColors, "blue");}
+}
+@-webkit-keyframes fill-animate-from-blue {
+      0% {fill: map-get($brandColors, "blue");}
+     25% {fill: map-get($brandColors, "purple");}
+     50% {fill: map-get($brandColors, "pink");}
+     75% {fill: map-get($brandColors, "green");}
+    100% {fill: map-get($brandColors, "blue");}
+}
+@-webkit-keyframes bgcolor-animate-from-gray {
+      0% {background-color: map-get($brandColors, "gray");}
+     25% {background-color: map-get($brandColors, "purple");}
+     50% {background-color: map-get($brandColors, "pink");}
+     75% {background-color: map-get($brandColors, "green");}
+    100% {background-color: map-get($brandColors, "gray");}
+}
+

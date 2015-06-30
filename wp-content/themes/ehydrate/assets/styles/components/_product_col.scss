@@ -19,6 +19,10 @@
 		background-repeat:no-repeat;
 		background-size: cover;
 		
+		&.product-col-md-1 {
+			width:100%;
+		}
+
 		&.product-col-md-2 {
 			width:50%;
 			padding-top:16rem;

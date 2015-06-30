@@ -35,21 +35,25 @@
       init: function() {
         // JavaScript to be fired on the home page
 
-        $('#main-hero-home').vide({
-          mp4: 'http://vodkabears.github.io/vide/video/ocean.mp4',
-          webm: 'http://vodkabears.github.io/vide/video/ocean.webm',
-          ogv: 'http://vodkabears.github.io/vide/video/ocean.ogv',
-          poster: 'http://vodkabears.github.io/vide/video/ocean.jpg'
-        }, {
-          volume: 0,
-          playbackRate: 1,
-          muted: true,
-          loop: true,
-          autoplay: true,
-          position: '50% 50%', // Similar to the CSS `background-position` property.
-          posterType: 'jpg', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
-          resizing: true // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
-        });
+        var $mainHeroHome = $('#main-hero-home');
+        if($mainHeroHome.length && $mainHeroHome.find('.hero.hero-video').length) {
+          console.log('main hero exists');
+          $mainHeroHome.vide({
+            mp4: 'http://vodkabears.github.io/vide/video/ocean.mp4',
+            webm: 'http://vodkabears.github.io/vide/video/ocean.webm',
+            ogv: 'http://vodkabears.github.io/vide/video/ocean.ogv',
+            poster: 'http://vodkabears.github.io/vide/video/ocean.jpg'
+          }, {
+            volume: 0,
+            playbackRate: 1,
+            muted: true,
+            loop: true,
+            autoplay: true,
+            position: '50% 50%', // Similar to the CSS `background-position` property.
+            posterType: 'jpg', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
+            resizing: true // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
+          });
+        } // end if
 
       },
       finalize: function() {

@@ -13,10 +13,32 @@
 
 	&.btn-#{$colorKey} {
          @include button-variant($newColor, $color, transparent);
+    &.btn-trnso {
+      background-color:transparent;
+      border-color: $color;
+      color:$color;
+    }
 	}
+}
+
+&.btn-trnso {
+  background-color:transparent;
+  border-width:2px;
+  border-style:solid;
+  border-color:$btn-default-color;
+}
+
+.btn-lg {
+  &.btn-trnso {
+    border-width:3px;
+  }
 }
 
 .btn-xlg {
   // line-height: ensure even-numbered height of button next to large input
   @include button-size( ($padding-large-vertical+2px), ($padding-large-horizontal + 2), ($font-size-large + 2), ($line-height-large+.2), ($border-radius-large));
+
+  &.btn-trnso {
+    border-width:4px;
+  }
 }

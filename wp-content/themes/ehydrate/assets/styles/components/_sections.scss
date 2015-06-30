@@ -1,7 +1,19 @@
 /* SECTIONS CSS */
 section {
   	position: relative;
-	
+	   
+    .section-bg-overlay {
+      position:absolute;
+      left:0;
+      top:0;
+      right:0;
+      bottom:0;
+      width:100%;
+      height:100%;
+      margin:0;
+      padding:0;
+    }
+ 
 	@each $colorKey, $color in $brandColors {
 
 	  &.section-style-#{$colorKey} {
@@ -21,6 +33,14 @@ section {
 	    }
 	  }
 	  
+    &.section-style-gray_light_bg {
+      background-image: url('../images/bgs/gray-wht-splash-bg-1260x450.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+    }
 	}
 
 	&.section-padded {
@@ -49,12 +69,62 @@ section {
 
 
   	&[data-section="sub-main-hero-one"] {
-  		padding-top:12rem;
-  		padding-bottom:12rem;
+  		padding-top:6rem;
+  		padding-bottom:6rem;
+      
+      .section-bg-overlay {
+        // background-color:rgba(map-get($brandColors, "pink_light"), 0.75);
+        display:none;
+      }
 
-  		.section-header {}
-  		.section-subheader {}
+  		.section-header {
+        font-weight: 900;
+        font-size: 48px;
+        color:map-get($brandColors, "blue");
+      }
+  		.section-subheader {
+         color:map-get($brandColors, "gray");
+      }
+      
+      .hydate-icons-list {
+        display: block;
+        width:70%;
+        margin:30px auto;
+        
+        .hydrate-icon-wrap {
+          position:relative;
+          display:inline-block;
+          padding:20px;
+          font-size:0;
+          line-height:normal;
+          width:184px;
+          height:auto;
+          
+          &:last-child{
+            width:216px;
+          }
+          .hydrate-icon {
+            width:100%;
+            height:auto;
 
+           
+          }
+          .hydrate-icon-svg {
+            path {
+              fill:map-get($brandColors, "blue");
+            }
+          }
+        }
+
+        .btn {
+          -webkit-animation-direction: normal;
+          -webkit-animation-duration: 20s;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-name: bgcolor-animate-from-gray;
+          -webkit-animation-timing-function: ease;
+        }
+
+      }
   	}
 
   	&[data-section="what-sport-do-i-play-main"] {
