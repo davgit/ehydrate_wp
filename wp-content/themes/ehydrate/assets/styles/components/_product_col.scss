@@ -14,13 +14,15 @@
 		float:none;
 		width:20%;
 		padding:8rem 18px;
-		background-origin: scroll;
+		background-origin: initial;
 		background-position: center center;
 		background-repeat:no-repeat;
 		background-size: cover;
 		
 		&.product-col-md-1 {
 			width:100%;
+			padding-left: 3rem;
+			padding-right: 3rem;
 		}
 
 		&.product-col-md-2 {
@@ -58,12 +60,18 @@
 
 
 		&[data-producttype="protein-on-the-go"] {
-			background-color:tint(map-get($brandColors, "blue"), 80%);
-			//background-image: url('https://placeholdit.imgix.net/~text?bg=FAFAFA&txtsize=33&txt=%20&w=720&h=404');
+			// background-color:tint(map-get($brandColors, "blue"), 80%);
+			background-image: url('../images/bgs/product-line-bgs/protein-on-the-go--from-5776--1200x600.jpg');
+			
+			&.product-col-md-1 {
+				
+			}
+
 			.copysep {
-				@include outputStyleForColor('border-color', map-get($brandColors, "blue"), 15%);
+				//@include outputStyleForColor('border-color', map-get($brandColors, "blue"), 15%);
 				// opacity: 1;
 			}
+
 		}
 		&[data-producttype="adult-hydration"] {
 			background-color:tint(map-get($brandColors, "orange"), 80%);
@@ -94,7 +102,8 @@
 
 	.product-text {
 		display: block;
-		width: 60%;
+		width: 100%;
+		font-size:2rem;
 		.product-text-header {
 			display: block;
 			text-align:left;
@@ -104,22 +113,42 @@
 		.product-text-subcopy {
 			display: block;
 			text-align:left;
-			font-size: 0.8em;
-			line-height: 1.1em;
-			color:#666;
-
+			font-size: 1.2em;
+			line-height: 1.5em;
+			color:map-get($brandColors, "white");
+			font-weight:300;
 		}
+	}
+	
+	.product-line-logo-img {
+		
+	}
+	.product-line-nutrf-img {
+		display: block;
+		max-width: 260px;
+		height: auto;
+	}
+
+	.product-line-product-img-wrap {
+
+	}
+	.product-line-product-img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 
 	.product-link {
-		position:absolute;
-		left:0;
-		bottom:0;
-		display: block;
-		width:100.3%;
-		border-radius:0;
-		margin-bottom: 0;
-		margin-top:15px;
+		// position:absolute;
+		// left:0;
+		// bottom:0;
+		// display: block;
+		// width:100.3%;
+		// border-radius:0;
+		// margin-bottom: 0;
+		// margin-top:15px;
 	}
 }
