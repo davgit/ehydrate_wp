@@ -75,23 +75,22 @@
 		}
 		&[data-producttype="adult-hydration"] {
 			background-image: url('../images/bgs/product-line-bgs/adult-hydration--from-5755--1200x545.jpg');
+
+			.product-line-product-img-wrap {
+				margin-top:80px
+			}
 		}
 
 		&[data-producttype="kids-hydration"] {
-			background-color:tint(map-get($brandColors, "pink"), 80%);
-			//background-image: url('https://placeholdit.imgix.net/~text?bg=FAFAFA&txtsize=33&txt=%20&w=720&h=404');
-			.copysep {
-				@include outputStyleForColor('border-color', map-get($brandColors, "pink"), 15%);
-				// opacity: 1;
+			background-image: url('../images/bgs/product-line-bgs/kids-hydration--from-5742--1200x545.jpg');
+
+			.product-line-product-img-wrap {
+				margin-top:80px
 			}
 		}
+
 		&[data-producttype="gels"] {
-			background-color:tint(map-get($brandColors, "brown"), 80%);
-			//background-image: url('https://placeholdit.imgix.net/~text?bg=FAFAFA&txtsize=33&txt=%20&w=720&h=404');
-			.copysep {
-				@include outputStyleForColor('border-color', map-get($brandColors, "brown"), 15%);
-				// opacity: 1;
-			}
+			
 		}
 
 	}
