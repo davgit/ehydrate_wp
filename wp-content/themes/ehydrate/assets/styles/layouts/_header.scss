@@ -21,7 +21,7 @@ header {
 
 	.navbar-brand {
 		padding:($navbar-padding-vertical - 16) $navbar-padding-horizontal ($navbar-padding-vertical - 12);
-		max-width:196px;
+		width:196px;
 		height: auto;
 		> img {
 			display: block;

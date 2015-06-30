@@ -7,6 +7,7 @@
 	&.navbar-lg {
 		min-height: 84px;
 	}
+
 	&.navbar-transparent {
 		.navbar-brand {
 			@each $colorKey, $color in $brandColors {
@@ -62,7 +63,7 @@
 	.navbar {
 		&.navbar-lg {
 			.navbar-brand {
-				max-width: 256px;
+				width: 256px;
 				margin-top:0;
 			}
 
@@ -77,7 +78,7 @@
 			&.navbar-lg {
 				
 				.navbar-brand {
-					max-width:300px;
+					width:300px;
 					margin-top:10px;
 				}
 				.navbar-nav-wrap {
