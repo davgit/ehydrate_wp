@@ -41,7 +41,21 @@
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit.</p>
                                     <hr class="copysep sep-half">
-                                    <img src="<?php echo dist_path('/images/brand/product-lines/protein-on-the-go/nutrition-facts-protein-on-the-go--300x129.png');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-nutrf-img" title="<?php _e('Protein On The Go', 'sage');?>">
+                                    <div class="product-nutr-sqaures">
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">150</span>
+                                            <span class="nutr-type">Calories</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">25g</span>
+                                            <span class="nutr-type">Protein</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">4g</span>
+                                            <span class="nutr-type">Sugar</span>
+                                        </div>
+                                    </div>
+
                                     <br>
                                     <br>
                                     <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Try E-Hydrate Proteins</a>
