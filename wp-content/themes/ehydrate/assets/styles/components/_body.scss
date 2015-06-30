@@ -29,8 +29,12 @@ body {
 		margin-right:20px;
   	}
 }
-
-.strong {font-weight:700;}
+.fw-thin-ultra {font-weight:100;}
+.fw-thin {font-weight:300;}
+.fw-normal {font-weight:400;}
+.strong,
+.fw-bold {font-weight:700;}
+.fw-bold-ultra {font-weight:900;}
 
 .ta-center {text-align:center;}
 .ta-left {text-align:left;}
