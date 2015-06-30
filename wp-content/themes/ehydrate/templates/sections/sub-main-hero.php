@@ -147,16 +147,44 @@
                         </div><!-- end .row -->
                     </div><!-- end .container -->
                 </div><!-- end .product-col -->
-
-
-
+                
                 <div class="product-col product-col-md-1" data-producttype="gels">
-                    <div class="product-text">
-                        <h5 class="product-text-header"><?php _e('Gels', 'sage');?></h5>
-                        <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, veniam.</p>
-                        <hr class="copysep sep-half">
-                    </div>
-                    <a class="product-link btn btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Try E-Hydrate Gels</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="product-line-product-img-wrap">
+                                    <img src="<?php echo 'https://placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LINEUP&w=380&h=460';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('Gels', 'sage');?>">
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="product-text">
+                                    <h5 class="product-text-header">
+                                        <img src="<?php echo 'https://placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
+                                    </h5>
+                                    <hr class="copysep sep-half">
+                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, dicta, ullam!</p>
+                                    <hr class="copysep sep-half">
+                                    <div class="product-nutr-sqaures">
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">90</span>
+                                            <span class="nutr-type">Calories</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">600mg</span>
+                                            <span class="nutr-type">BCAAs</span>
+                                        </div>
+                                        <div class="nutr-square">
+                                            <span class="nutr-number">9g</span>
+                                            <span class="nutr-type">Sugar</span>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <a class="product-link btn btn-lg btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Try E-Hydrate Gels</a>
+                                </div>
+                            </div>
+                        </div><!-- end .row -->
+                    </div><!-- end .container -->
                 </div><!-- end .product-col -->
 
             </div><!-- end .product-row -->
