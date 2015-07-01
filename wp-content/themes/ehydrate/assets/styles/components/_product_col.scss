@@ -73,18 +73,19 @@
 		}
 		&[data-producttype="adult-hydration"] {
 			background-image: url('../images/bgs/product-line-bgs/adult-hydration--from-5755--1200x545.jpg');
-
+			
 			.product-line-product-img-wrap {
 				margin-top:26px
+			}
+			.product-line-product-img {
+				max-width: 380px;
 			}
 
 			.product-line-logo-img {
 				width:372px;
 				path {
-					// -webkit-animation: fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Safari 4+ */
-					// -moz-animation:    fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Fx 5+ */
-					// -o-animation:      fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Opera 12+ */
-					animation:         fill-animate-adult-drink-mix-colors-from-green 20s infinite; /* IE 10+, Fx 29+ */
+					// disable for now, use somewhere else perhaps
+					// animation:         fill-animate-adult-drink-mix-colors-from-green 20s infinite; /* IE 10+, Fx 29+ */
 				}
 			}
 		}
@@ -95,6 +96,10 @@
 			.product-line-product-img-wrap {
 				margin-top:26px
 			}
+			.product-line-product-img {
+				max-width: 380px;
+			}
+
 			.product-line-logo-img {
 				width:410px;
 			}
@@ -124,7 +129,7 @@
 			display: block;
 			text-align:left;
 			font-size: 1.2em;
-			line-height: 1.5em;
+			line-height: 1.15;
 			color:map-get($brandColors, "white");
 			font-weight:300;
 			text-shadow: 0 1px 1px rgba(0,0,0,0.3);
@@ -214,6 +219,20 @@
 			-moz-transform:scale(1,1.5); /* Firefox */
 			-ms-transform:scale(1,1.5); /* IE 9+ */
 			-o-transform:scale(1,1.5); /* Opera */
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-lg-min) {
+	.product-nutr-sqaures {
+		.nutr-square {
+			min-width: 72px;
+			.nutr-number {
+				font-size: 3.0rem;
+			}
+			.nutr-type {
+				font-size: 1.4rem;
+			}
 		}
 	}
 }

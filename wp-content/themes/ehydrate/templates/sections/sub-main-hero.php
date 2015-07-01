@@ -84,7 +84,7 @@
                             <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-orange.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
