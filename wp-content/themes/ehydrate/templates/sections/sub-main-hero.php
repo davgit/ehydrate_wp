@@ -33,34 +33,40 @@
                 <div class="product-col product-col-md-1" data-producttype="protein-on-the-go">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('/images/brand/product-lines/protein-on-the-go/logo-protein-on-the-go-brown.svg');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-logo-img" title="<?php _e('Protein On The Go', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/protein-on-the-go/logo-protein-on-the-go-blue-flat.svg');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-logo-img" title="<?php _e('Protein On The Go', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit.</p>
                                     <hr class="copysep sep-half">
-                                    <div class="product-nutr-sqaures">
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">150</span>
-                                            <span class="nutr-type">Calories</span>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="product-nutr-sqaures">
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">150</span>
+                                                    <span class="nutr-type">Calories</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">25g</span>
+                                                    <span class="nutr-type">Protein</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">4g</span>
+                                                    <span class="nutr-type">Sugar</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">25g</span>
-                                            <span class="nutr-type">Protein</span>
-                                        </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">4g</span>
-                                            <span class="nutr-type">Sugar</span>
+                                        <div class="col-md-5">
+                                            <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Get Started</a>
                                         </div>
                                     </div>
-                                    <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Try E-Hydrate Proteins</a>
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo dist_path('/images/brand/product-lines/protein-on-the-go/product-protein-on-the-go--279x571.png');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-product-img"  title="<?php _e('Protein On The Go', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/protein-on-the-go/product-protein-on-the-go--408x500.png');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-product-img"  title="<?php _e('Protein On The Go', 'sage');?>">
                                 </div>
                             </div>
                         </div><!-- end .row -->
@@ -70,34 +76,40 @@
                 <div class="product-col product-col-md-1" data-producttype="adult-hydration">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo dist_path('/images/brand/product-lines/adult-hydration/product-adult-hydration--380x380.png');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/product-adult-hydration--380x380.png');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('/images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
                                     <hr class="copysep sep-half">
-                                    <div class="product-nutr-sqaures">
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">4</span>
-                                            <span class="nutr-type">Calories</span>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="product-nutr-sqaures">
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">4</span>
+                                                    <span class="nutr-type">Calories</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">1g</span>
+                                                    <span class="nutr-type">Carbs</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">0g</span>
+                                                    <span class="nutr-type">Sugar</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">1g</span>
-                                            <span class="nutr-type">Carbs</span>
-                                        </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">0g</span>
-                                            <span class="nutr-type">Sugar</span>
+                                        <div class="col-md-5">
+                                            <a class="product-link btn btn-lg btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>
                                         </div>
                                     </div>
-                                    <a class="product-link btn btn-lg btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Drink Mixes</a>
                                 </div>
                             </div>
                         </div><!-- end .row -->
@@ -108,34 +120,40 @@
                 <div class="product-col product-col-md-1" data-producttype="kids-hydration">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('/images/brand/product-lines/kids-hydration/logo-kids-drink-mix-pink.svg');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/logo-kids-drink-mix-pink.svg');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
                                     <hr class="copysep sep-half">
-                                    <div class="product-nutr-sqaures">
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">15</span>
-                                            <span class="nutr-type">Calories</span>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="product-nutr-sqaures">
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">15</span>
+                                                    <span class="nutr-type">Calories</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">4g</span>
+                                                    <span class="nutr-type">Carbs</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">0g</span>
+                                                    <span class="nutr-type">Sugar</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">4g</span>
-                                            <span class="nutr-type">Carbs</span>
-                                        </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">0g</span>
-                                            <span class="nutr-type">Sugar</span>
+                                        <div class="col-md-5">
+                                            <a class="product-link btn btn-lg btn-pink" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try It Now</a>        
                                         </div>
                                     </div>
-                                    <a class="product-link btn btn-lg btn-pink" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Kids</a>
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo dist_path('/images/brand/product-lines/kids-hydration/product-kids-hydration--380x380.png');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/product-kids-hydration--380x380.png');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
                                 </div>
                             </div>
                         </div><!-- end .row -->
@@ -145,12 +163,12 @@
                 <div class="product-col product-col-md-1" data-producttype="gels">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
                                     <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LINEUP&w=380&h=460';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('Gels', 'sage');?>">
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
                                         <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
@@ -158,21 +176,27 @@
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, dicta, ullam!</p>
                                     <hr class="copysep sep-half">
-                                    <div class="product-nutr-sqaures">
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">90</span>
-                                            <span class="nutr-type">Calories</span>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="product-nutr-sqaures">
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">90</span>
+                                                    <span class="nutr-type">Calories</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number narrower">600mg</span>
+                                                    <span class="nutr-type">BCAAs</span>
+                                                </div>
+                                                <div class="nutr-square">
+                                                    <span class="nutr-number">9g</span>
+                                                    <span class="nutr-type">Sugar</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">600mg</span>
-                                            <span class="nutr-type">BCAAs</span>
-                                        </div>
-                                        <div class="nutr-square">
-                                            <span class="nutr-number">9g</span>
-                                            <span class="nutr-type">Sugar</span>
+                                        <div class="col-md-5">
+                                            <a class="product-link btn btn-lg btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Get Started</a>
                                         </div>
                                     </div>
-                                    <a class="product-link btn btn-lg btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Try E-Hydrate Gels</a>
                                 </div>
                             </div>
                         </div><!-- end .row -->
