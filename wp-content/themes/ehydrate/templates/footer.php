@@ -1,4 +1,4 @@
-<footer class="footer-padded-lg footer-style-gray_light" role="contentinfo">
+<footer class="footer-padded-lg footer-style-gray" role="contentinfo">
 	<div class="footer-one container">
 		<div class="row">
 			<div class="col-md-7">

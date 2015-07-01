@@ -19,7 +19,7 @@
             
             <div class="made-in-usa"><img alt="Made In USA" src="<?php echo dist_path('images/misc/made-here-wht-text.svg');?>"></div>
 
-            <ul id="menu-header-main-socials" class="nav navbar-nav navbar-nav-socials navbar-subnav-trans-on-fixed navbar-green navbar-right rounded">
+            <ul id="menu-header-main-socials" class="nav navbar-nav navbar-nav-socials navbar-subnav-trans-on-fixed navbar-right rounded">
               <li class="menu-item">
                 <a href="https://www.facebook.com/ehydrate" target="_blank"><i class="fa fa-facebook-square"></i></a>
               </li>

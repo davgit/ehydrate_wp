@@ -85,7 +85,8 @@
 					float: none;
 					max-height: 50px;
 					&:first-child{
-						margin-top:10px;
+						margin-top:6px;
+						max-height: 42px;
 					}
 					&:last-child {
 						margin-right:0;
@@ -129,7 +130,7 @@
 				}
 
 				.made-in-usa {
-					margin-top:12px;
+					margin-top:14px;
 					padding-left:0;
   					border-left:none;
 				}
