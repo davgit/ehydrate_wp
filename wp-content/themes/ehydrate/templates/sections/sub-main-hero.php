@@ -5,12 +5,6 @@
             <div class="col-md-12">
                 <h3 class="section-header h1 strong ta-center">Finally, Natural Tastes Great</h3>
                 <p class="section-subheader ta-center thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi a repellendus velit possimus!</p>
-
-                <?php /* 
-                <div class="section-icon section-icon-main" style="width: 240px;margin: 0 auto;">
-                    <img alt="E-Hydrate" src="<?php echo dist_path('images/misc/natural-icon-blue-grd.svg');?>">
-                </div>
-                */ ?>
                 <div class="hydate-icons-list">
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Recover" src="<?php echo dist_path('images/brand/icons/hydrate-icon-recover-blue.svg');?>"></div>
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Hydrate" src="<?php echo dist_path('images/brand/icons/hydrate-icon-hydrate-blue.svg');?>"></div>
@@ -208,8 +202,24 @@
     </div><!-- end .container-no-pad -->
 </section><!-- end section -->
 
+<section data-section="sub-main-hero-three" class="section-padded-lg section-style-full-bg">
+    <div class="section-bg-overlay"></div>
+    <div class="container">
+        <div class="content row">
+            <div class="col-md-12">
+                <h3 class="section-header h1 strong ta-center">From Now On This Is Natural Energy.</h3>
+                <p class="section-subheader ta-center thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sapiente iure ipsum quo!</p>
+                <div class="section-icon-wrap">
+                    <img class="section-icon" alt="E-Hydrate" src="<?php echo dist_path('images/brand/logo/svg/ehydrate-logo-r-ffffff.svg');?>" title="Natural Energy">
+                </div>
+            </div>
+        </div><!-- end .row -->
+    </div><!-- end .container -->
+</section><!-- end section -->
 
-<section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray">
+
+
+<section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray_light">
     <div class="container">
         <div class="content row">
             <div class="col-md-5">
@@ -227,6 +237,14 @@
     </div><!-- end .container -->
 </section><!-- end section -->
 
+<section data-section="instagram-feed-main" class="section-style-gray_light">
+    <div class="container-no-pad" style="margin-top: -1px;">
+        <div class="content row-fluid">
+            <script src="//instansive.com/widget/js/instansive.js"></script>
+            <iframe src="//instansive.com/widgets/cd3ebd7a1df5ee737ff293684156c1bc9bff5f79.html" id="instansive_cd3ebd7a1d" name="instansive_cd3ebd7a1d"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        </div><!-- end .row -->
+    </div><!-- end .container -->
+</section><!-- end section -->
 
 <section data-section="kids-main" class="section-padded-xxl section-style-gray_light">
     <div class="container">
@@ -246,14 +264,7 @@
     </div><!-- end .container -->
 </section><!-- end section -->
 
-<section data-section="instagram-feed-main" class="section-style-gray_light">
-    <div class="container-no-pad">
-        <div class="content row-fluid">
-            <script src="//instansive.com/widget/js/instansive.js"></script>
-            <iframe src="//instansive.com/widgets/cd3ebd7a1df5ee737ff293684156c1bc9bff5f79.html" id="instansive_cd3ebd7a1d" name="instansive_cd3ebd7a1d"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-        </div><!-- end .row -->
-    </div><!-- end .container -->
-</section><!-- end section -->
+
 
 
 <?php

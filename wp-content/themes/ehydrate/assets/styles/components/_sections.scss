@@ -85,8 +85,7 @@ section {
   		padding-bottom:6rem;
       
       .section-bg-overlay {
-        // background-color:rgba(map-get($brandColors, "pink_light"), 0.75);
-        display:none;
+        background-color: rgba(255, 255, 255, 0.75);
       }
 
   		.section-header {
@@ -129,15 +128,46 @@ section {
         }
 
         .btn {
-          -webkit-animation-direction: normal;
-          -webkit-animation-duration: 20s;
-          -webkit-animation-iteration-count: infinite;
-          -webkit-animation-name: bgcolor-animate-from-gray;
-          -webkit-animation-timing-function: ease;
+          // -webkit-animation-direction: normal;
+          // -webkit-animation-duration: 20s;
+          // -webkit-animation-iteration-count: infinite;
+          // -webkit-animation-name: bgcolor-animate-from-gray;
+          // -webkit-animation-timing-function: ease;
         }
 
       }
   	}
+
+    &[data-section="sub-main-hero-three"] {
+      padding-top:6rem;
+      padding-bottom:6rem;
+      background-image: url('../images/bgs/gray-wht-splash-2-bg-1260x450.jpg');
+      
+      .section-bg-overlay {
+        background-color: rgba(255, 255, 255, 0.75);
+      }
+
+      .section-header {
+        font-weight: 900;
+        font-size: 48px;
+        color:map-get($brandColors, "gray");
+      }
+      .section-subheader {
+         color:map-get($brandColors, "gray");
+      }
+
+      .section-icon-wrap {
+        display: block;
+        width: 560px;
+        margin: 3rem auto 0;
+      }
+      .section-icon {
+        path {
+          animation: fill-animate-adult-drink-mix-colors-from-blue 20s infinite; /* IE 10+, Fx 29+ */
+        }
+      }
+
+    }
 
   	&[data-section="what-sport-do-i-play-main"] {
       
