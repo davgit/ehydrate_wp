@@ -39,7 +39,7 @@
                                         <img src="<?php echo dist_path('images/brand/product-lines/protein-on-the-go/logo-protein-on-the-go-blue-flat.svg');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-logo-img" title="<?php _e('Protein On The Go', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
-                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit.</p>
+                                    <p class="product-text-subcopy">Enjoy delicious, satisfying protein anywhere, anytime. Just add water.</p>
                                     <hr class="copysep sep-half">
                                     <div class="row">
                                         <div class="col-md-7">
@@ -87,7 +87,7 @@
                                         <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-orange.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
-                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
+                                    <p class="product-text-subcopy">Feel great and stay hydrated all day long and great tasting natural flavor.</p>
                                     <hr class="copysep sep-half">
                                     <div class="row">
                                         <div class="col-md-7">
@@ -126,7 +126,7 @@
                                         <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/logo-kids-drink-mix-pink.svg');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
-                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum suscipit, tempora voluptatibus tempore.</p>
+                                    <p class="product-text-subcopy">Keep your kids healthy and feeling great all day, without the sugar.</p>
                                     <hr class="copysep sep-half">
                                     <div class="row">
                                         <div class="col-md-7">
@@ -174,7 +174,7 @@
                                         <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
-                                    <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, dicta, ullam!</p>
+                                    <p class="product-text-subcopy">Natural energy, BCAAs and electrolytes help fuel your intense workout.</p>
                                     <hr class="copysep sep-half">
                                     <div class="row">
                                         <div class="col-md-7">
@@ -213,8 +213,8 @@
     <div class="container">
         <div class="content row">
             <div class="col-md-5">
-                <h3 class="section-header h2">Block Text About Being Natural And What The Products Do</h3>
-                <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non iure obcaecati aspernatur sequi commodi fugit quidem temporibus repellat deleniti. Vero voluptate consequatur itaque perferendis laboriosam mollitia, excepturi beatae voluptatem provident aliquid, officia illo adipisci, dolores fuga veritatis voluptates repellendus optio.</p>
+                <h3 class="section-header h2">What Sport Do You Play?</h3>
+                <p class="product-text-subcopy">We know that your life is demanding, that's why we make natural products that taste incredible and are easy to enjoy. Whether you're a working mother, grad student, firefighter or entrepreneur, E-hydrate helps you fee your best -- no matter what sport you play.</p>
                 <hr class="copysep sep-half">
                 <a class="try-it-link btn btn-green btn-lg" href="https://e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
             </div>
@@ -237,8 +237,8 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <h3 class="section-header h2">Block Text About Being Natural And What The Products Do</h3>
-                <p class="product-text-subcopy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo architecto illo similique, modi distinctio eius accusamus quisquam, corrupti alias delectus beatae expedita vel! Sunt iure tenetur suscipit rerum excepturi labore. Ad asperiores voluptatum ipsa qui iste eaque sint assumenda quaerat.</p>
+                <h3 class="section-header h2">Don't Worry When "Accidents" Happen</h3>
+                <p class="product-text-subcopy">KIDS E-hydrate doesn't contain any colors, artificial sweeteners or flavors. That's not just good news for your kids, it's good news for your furniture. Mom won't freak out when the little one's have "accidents" because KIDS E-hydrate won't leave a stain.</p>
                 <hr class="copysep sep-half">
                 <a class="try-it-link btn btn-green btn-lg" href="https://e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
             </div>
