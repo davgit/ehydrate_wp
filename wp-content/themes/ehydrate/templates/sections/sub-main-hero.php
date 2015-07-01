@@ -1,4 +1,4 @@
-<section data-section="sub-main-hero-one" class="section-padded-lg section-style-gray_light_bg">
+<section data-section="sub-main-hero-one" class="section-padded-lg section-style-full-bg section-style-gray-white-splash-bg">
     <div class="section-bg-overlay"></div>
     <div class="container">
         <div class="content row">
@@ -209,7 +209,7 @@
 </section><!-- end section -->
 
 
-<section data-section="what-sport-do-i-play-main" class="section-padded-xxl section-style-gray_light">
+<section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray">
     <div class="container">
         <div class="content row">
             <div class="col-md-5">

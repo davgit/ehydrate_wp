@@ -33,13 +33,25 @@ section {
 	    }
 	  }
 	  
-    &.section-style-gray_light_bg {
-      background-image: url('../images/bgs/gray-wht-splash-bg-1260x450.jpg');
+    &.section-style-full-bg {
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
+    }
+
+    &.section-style-gray-white-splash-bg {
+      background-image: url('../images/bgs/gray-wht-splash-bg-1260x450.jpg');
+    }
+    &.section-style-lemons-limes-color-bg {
+      background-image: url('../images/bgs/lemons-limes-color-bg-1260x450.jpg');
+    }
+    &.section-style-lemons-limes-color-noblur-bg {
+      background-image: url('../images/bgs/lemons-limes-color-noblur-bg-1260x450.jpg');
+    }
+    &.section-style-lemons-limes-bw-bg {
+      background-image: url('../images/bgs/lemons-limes-bw-bg-1260x450.jpg');
     }
 	}
 
@@ -128,8 +140,9 @@ section {
   	}
 
   	&[data-section="what-sport-do-i-play-main"] {
+      
       border-bottom: 1px solid #E2E2E2;
-
+      
       .section-header {
         margin-top:5px;
       }
