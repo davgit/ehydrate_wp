@@ -34,15 +34,16 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
-
+        var $wpGlobals = window.wpGlobals;
+        console.log($wpGlobals);
         var $mainHeroHome = $('#main-hero-home');
         if($mainHeroHome.length && $mainHeroHome.find('.hero.hero-video').length) {
           console.log('main hero exists');
           $mainHeroHome.vide({
-            mp4: 'http://vodkabears.github.io/vide/video/ocean.mp4',
-            webm: 'http://vodkabears.github.io/vide/video/ocean.webm',
-            ogv: 'http://vodkabears.github.io/vide/video/ocean.ogv',
-            poster: 'http://vodkabears.github.io/vide/video/ocean.jpg'
+            mp4: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.mp4', //'http://vodkabears.github.io/vide/video/ocean.mp4',
+            webm: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.webm', //'http://vodkabears.github.io/vide/video/ocean.webm',
+            ogv: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.ogv', //'http://vodkabears.github.io/vide/video/ocean.ogv',
+            poster: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.jpg' //'http://vodkabears.github.io/vide/video/ocean.jpg'
           }, {
             volume: 0,
             playbackRate: 1,

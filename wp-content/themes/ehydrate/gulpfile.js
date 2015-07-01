@@ -200,6 +200,12 @@ gulp.task('fonts', function() {
     .pipe(browserSync.stream());
 });
 
+gulp.task('videos', function() {
+  return gulp.src(path.source + 'videos/**/*') //globs.videos
+    .pipe(gulp.dest(path.dist + 'videos'))
+    .pipe(browserSync.stream());
+});
+
 // ### Images
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
