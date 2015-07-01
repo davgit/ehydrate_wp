@@ -256,7 +256,7 @@
             </div>
             <div class="col-md-5">
                 <h3 class="section-header h2 fw-bold">Don't Worry When "Accidents" Happen</h3>
-                <p class="product-text-subcopy">KIDS E-hydrate doesn't contain any colors, artificial sweeteners or flavors. That's not just good news for your kids, it's good news for your furniture. Mom won't freak out when the little one's have "accidents" because KIDS E-hydrate won't leave a stain.</p>
+                <p class="product-text-subcopy">KIDS E-hydrate doesn't contain any colors, artificial sweeteners or flavors. That's not just good news for your kids, it's good news for your furniture.</p>
                 <hr class="copysep sep-half">
                 <a class="try-it-link btn btn-green btn-lg" href="https://e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
             </div>
