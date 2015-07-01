@@ -76,6 +76,15 @@
 			.product-line-product-img-wrap {
 				margin-top:80px
 			}
+
+			.product-line-logo-img {
+				path {
+					-webkit-animation: fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Safari 4+ */
+					-moz-animation:    fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Fx 5+ */
+					-o-animation:      fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* Opera 12+ */
+					animation:         fill-animate-adult-drink-mix-colors-from-green 15s infinite; /* IE 10+, Fx 29+ */
+				}
+			}
 		}
 
 		&[data-producttype="kids-hydration"] {

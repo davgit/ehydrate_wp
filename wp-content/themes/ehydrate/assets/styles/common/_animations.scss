@@ -14,6 +14,13 @@
      75% {fill: map-get($brandColors, "green");}
     100% {fill: map-get($brandColors, "blue");}
 }
+@-webkit-keyframes fill-animate-adult-drink-mix-colors-from-green {
+     0% {fill: map-get($brandColors, "green");}
+     25% {fill: map-get($brandColors, "orange");}
+     50% {fill: map-get($brandColors, "red");}
+     75% {fill: map-get($brandColors, "purple");}
+    100% {fill: map-get($brandColors, "green");}
+}
 @-webkit-keyframes bgcolor-animate-from-gray {
       0% {background-color: map-get($brandColors, "gray");}
      25% {background-color: map-get($brandColors, "purple");}
