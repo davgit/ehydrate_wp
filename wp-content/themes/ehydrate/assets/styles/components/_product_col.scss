@@ -56,8 +56,6 @@
 		
 		}
 
-
-
 		&[data-producttype="protein-on-the-go"] {
 			// background-color:tint(map-get($brandColors, "blue"), 80%);
 			background-image: url('../images/bgs/product-line-bgs/protein-on-the-go--from-5776--1200x600.jpg');
@@ -91,7 +89,11 @@
 		&[data-producttype="gels"] {
 			background-image: url('../images/bgs/product-line-bgs/gels--from-5794--1200x545.jpg');
 		}
+		
 
+		.product-nutr-sqaures {
+			margin-bottom:2rem;
+		}
 	}
 
 	.product-text {

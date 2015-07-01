@@ -55,8 +55,6 @@
                                             <span class="nutr-type">Sugar</span>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                     <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Try E-Hydrate Proteins</a>
                                 </div>
                             </div>
@@ -99,8 +97,6 @@
                                             <span class="nutr-type">Sugar</span>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                     <a class="product-link btn btn-lg btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Drink Mixes</a>
                                 </div>
                             </div>
@@ -134,8 +130,6 @@
                                             <span class="nutr-type">Sugar</span>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                     <a class="product-link btn btn-lg btn-pink" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try E-Hydrate Kids</a>
                                 </div>
                             </div>
@@ -178,8 +172,6 @@
                                             <span class="nutr-type">Sugar</span>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
                                     <a class="product-link btn btn-lg btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Try E-Hydrate Gels</a>
                                 </div>
                             </div>
