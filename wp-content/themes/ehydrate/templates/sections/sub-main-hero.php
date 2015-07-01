@@ -4,7 +4,7 @@
         <div class="content row">
             <div class="col-md-12">
                 <h3 class="section-header h1 strong ta-center">Finally, Natural Tastes Great</h3>
-                <p class="section-subheader ta-center thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi a repellendus velit possimus!</p>
+                <p class="section-subheader ta-center thin">E-hydrate's natural flavors are born in the kitchen, not in a lab.</p>
                 <div class="hydate-icons-list">
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Recover" src="<?php echo dist_path('images/brand/icons/hydrate-icon-recover-blue.svg');?>"></div>
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Hydrate" src="<?php echo dist_path('images/brand/icons/hydrate-icon-hydrate-blue.svg');?>"></div>

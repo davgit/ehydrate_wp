@@ -91,7 +91,7 @@ section {
   		.section-header {
         font-weight: 900;
         font-size: 48px;
-        color:map-get($brandColors, "blue");
+        color:map-get($brandColors, "green");
       }
   		.section-subheader {
          color:map-get($brandColors, "gray");
@@ -117,12 +117,10 @@ section {
           .hydrate-icon {
             width:100%;
             height:auto;
-
-           
           }
           .hydrate-icon-svg {
             path {
-              fill:map-get($brandColors, "blue");
+              fill:map-get($brandColors, "green_dark");
             }
           }
         }

@@ -112,6 +112,40 @@
 		.product-nutr-sqaures {
 			margin-bottom:2rem;
 		}
+
+		
+		&.product-col-bg-50-l {
+			&:before {
+				content:"";
+				display: block;
+				position: absolute;
+				left:0;
+				top:0;
+				bottom:0;
+				width:50%;
+			}
+		}
+		&.product-col-bg-50-r {
+			&:before {
+				content:"";
+				display: block;
+				position: absolute;
+				right:0;
+				top:0;
+				bottom:0;
+				width:50%;
+			}
+		}
+		&.col-bg-50-orange {
+			&:before {
+				background-color:rgba( map-get($brandColors, "orange"), 0.63);
+			}
+		}
+		&.col-bg-50-pink {
+			&:before {
+				background-color:rgba( map-get($brandColors, "pink"), 0.63);
+			}
+		}
 	}
 
 	.product-text {
