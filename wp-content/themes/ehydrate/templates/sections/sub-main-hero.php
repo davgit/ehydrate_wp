@@ -81,7 +81,7 @@
                                         <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-orange.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
-                                    <p class="product-text-subcopy">Feel great and stay hydrated all day long and great tasting natural flavor.</p>
+                                    <p class="product-text-subcopy">Feel great and stay hydrated all day long with great tasting natural fruit flavors.</p>
                                     <hr class="copysep sep-half">
                                     <div class="row">
                                         <div class="col-md-7">
