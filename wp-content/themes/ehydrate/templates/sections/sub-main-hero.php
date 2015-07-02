@@ -204,15 +204,13 @@
     </div><!-- end .container-no-pad -->
 </section><!-- end section -->
 
-<?php
-/* Hide From Now On Section for now
 <section data-section="sub-main-hero-three" class="section-padded-lg section-style-full-bg">
     <div class="section-bg-overlay"></div>
     <div class="container">
         <div class="content row">
             <div class="col-md-12">
                 <h3 class="section-header h1 strong ta-center">From Now On This Is Natural Energy.</h3>
-                <p class="section-subheader ta-center thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sapiente iure ipsum quo!</p>
+                <?php /* <p class="section-subheader ta-center thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sapiente iure ipsum quo!</p> */ ?>
                 <div class="section-icon-wrap">
                     <img class="section-icon" alt="E-Hydrate" src="<?php echo dist_path('images/brand/logo/svg/ehydrate-logo-r-ffffff.svg');?>" title="Natural Energy">
                 </div>
@@ -220,8 +218,6 @@
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
-*/ ?>
-
 
 <section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray_light">
     <div class="container">
