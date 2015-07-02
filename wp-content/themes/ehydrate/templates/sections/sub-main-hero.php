@@ -204,6 +204,8 @@
     </div><!-- end .container-no-pad -->
 </section><!-- end section -->
 
+<?php
+/* Hide From Now On Section for now
 <section data-section="sub-main-hero-three" class="section-padded-lg section-style-full-bg">
     <div class="section-bg-overlay"></div>
     <div class="container">
@@ -218,7 +220,7 @@
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
-
+*/ ?>
 
 
 <section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray_light">
