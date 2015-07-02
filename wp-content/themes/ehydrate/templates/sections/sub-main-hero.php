@@ -11,9 +11,6 @@
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Energize" src="<?php echo dist_path('images/brand/icons/hydrate-icon-energize-blue.svg');?>"></div>
                     <div class="hydrate-icon-wrap"><img class="hydrate-icon hydrate-icon-svg" alt="Gluten Free" src="<?php echo dist_path('images/brand/icons/hydrate-icon-gluten-free-blue.svg');?>"></div>
                 </div>
-                <p class="section-subheader ta-center thin">
-                    <a href="https://e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/" class="btn btn-lg btn-gray fw-thin">Get a Free Sample Now&nbsp;&nbsp;<i class="fa fa-leaf"></i></a>
-                </p>
             </div>
         </div><!-- end .row -->
     </div><!-- end .container -->
@@ -25,6 +22,7 @@
             <div class="product-row">
                 
                 <div class="product-col product-col-md-1" data-producttype="protein-on-the-go">
+                    <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -68,6 +66,7 @@
                 </div><!-- end .product-col -->
                 
                 <div class="product-col product-col-md-1" data-producttype="adult-hydration">
+                    <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -78,7 +77,7 @@
                             <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-orange.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Feel great and stay hydrated all day long with great tasting natural fruit flavors.</p>
@@ -112,6 +111,7 @@
 
                 
                 <div class="product-col product-col-md-1" data-producttype="kids-hydration">
+                    <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -155,6 +155,7 @@
                 </div><!-- end .product-col -->
                 
                 <div class="product-col product-col-md-1" data-producttype="gels">
+                    <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -246,6 +247,7 @@
     </div><!-- end .container -->
 </section><!-- end section -->
 
+<?php /* Hiding Kids Video Section for now
 <section data-section="kids-main" class="section-padded-xxl section-style-gray_light">
     <div class="container">
         <div class="content row">
@@ -263,9 +265,7 @@
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
-
-
-
+*/ ?>
 
 <?php
 /*

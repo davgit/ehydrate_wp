@@ -61,18 +61,18 @@ section {
     }	
   
   	&.section-padded-lg {
-    	padding-top:6rem;
-    	padding-bottom:6rem;
+    	padding-top:4.5rem;
+    	padding-bottom:4.5rem;
   	}
 
   	&.section-padded-xl {
-    	padding-top:9rem;
-    	padding-bottom:9rem;
+    	padding-top:6.5rem;
+    	padding-bottom:6.5rem;
   	}
 
     &.section-padded-xxl {
-      padding-top:12rem;
-      padding-bottom:12rem;
+      padding-top:10rem;
+      padding-bottom:10rem;
     }
 
   	p {
@@ -81,8 +81,8 @@ section {
 
 
   	&[data-section="sub-main-hero-one"] {
-  		padding-top:6rem;
-  		padding-bottom:6rem;
+  		padding-top:4rem;
+  		padding-bottom:4rem;
       
       .section-bg-overlay {
         background-color: rgba(255, 255, 255, 0.75);
@@ -137,8 +137,8 @@ section {
   	}
 
     &[data-section="sub-main-hero-three"] {
-      padding-top:6rem;
-      padding-bottom:6rem;
+      padding-top:4rem;
+      padding-bottom:4rem;
       background-image: url('../images/bgs/gray-wht-splash-2-bg-1260x450.jpg');
       
       .section-bg-overlay {

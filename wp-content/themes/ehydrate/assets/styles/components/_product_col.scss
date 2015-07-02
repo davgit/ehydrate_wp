@@ -18,7 +18,8 @@
 		background-position: center center;
 		background-repeat:no-repeat;
 		background-size: cover;
-		
+		transition: box-shadow 0.5s ease;
+
 		&.product-col-md-1 {
 			width:100%;
 			padding:3.5rem 3rem;
@@ -70,6 +71,7 @@
 			}
 
 		}
+
 		&[data-producttype="adult-hydration"] {
 			background-image: url('../images/bgs/product-line-bgs/adult-hydration--from-5755--1200x545.jpg');
 			
@@ -107,11 +109,7 @@
 		&[data-producttype="gels"] {
 			background-image: url('../images/bgs/product-line-bgs/gels--from-5794--1200x545.jpg');
 		}
-		
 
-		.product-nutr-sqaures {
-			margin-bottom:2rem;
-		}
 
 		
 		&.product-col-bg-50-l {
@@ -146,7 +144,27 @@
 				background-color:rgba( map-get($brandColors, "pink"), 0.63);
 			}
 		}
+
+		.section-bg-overlay {
+			background-color: rgba(white,0.55);
+			transition: background-color 0.5s ease;
+		}
+
+		.product-nutr-sqaures {
+			margin-bottom:2rem;
+		}
+		
+		// .product-col hover:
+		&:hover {
+			box-shadow:0px 2px 10px rgba(136, 136, 136, 0.2), 0px -2px 10px rgba(136, 136, 136, 0.2);
+			z-index: 2;
+			.section-bg-overlay {
+				background-color: rgba(white,0.35);
+			}
+		}
 	}
+
+	
 
 	.product-text {
 		display: block;
@@ -193,6 +211,8 @@
 	.product-link {
 		margin: 4rem 0;
 	}
+
+
 }
 
 

@@ -23,7 +23,10 @@
 	  color: #fff;
 	  font-weight: 400;
 
-		&.pos-bottom-20pct {
+		&.pos-bottom-15pct {
+			bottom:15%;
+		}
+		&.pos-bottom-17pct {
 			bottom:17%;
 		}
 	   
@@ -60,7 +63,17 @@
 	width:100%;
 	z-index: 0;
 	.hero {
-
+		.promo-copy {
+			.copysep {
+				&.main-hero-copysep {
+					margin-bottom: 32px;
+				}
+			}
+		}
+	}
+	
+	.main-hero-cta-btn {
+		text-transform: uppercase;
 	}
 }
 
