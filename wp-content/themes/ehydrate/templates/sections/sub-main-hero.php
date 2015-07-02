@@ -77,7 +77,7 @@
                             <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-green.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                        <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-purple.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Feel great and stay hydrated all day long with great tasting natural fruit flavors.</p>
@@ -100,7 +100,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-orange" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>
+                                            <a class="product-link btn btn-lg btn-green" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>
                                         </div>
                                     </div>
                                 </div>
