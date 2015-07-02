@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/product-adult-hydration--380x380.png');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/product-adult-hydration--360x374.png');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -147,7 +147,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/product-kids-hydration--380x380.png');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/product-kids-hydration--360x367.png');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
                                 </div>
                             </div>
                         </div><!-- end .row -->
@@ -160,13 +160,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="product-line-product-img-wrap">
-                                    <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LINEUP&w=380&h=460';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('Gels', 'sage');?>">
+                                    <img src="<?php echo dist_path('images/brand/product-lines/gels/product-gels--370x380.png');?>" alt="<?php _e('E-hydrate Protein Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('E-hydrate Protein Gels', 'sage');?>">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
-                                        <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>">
+                                        <!-- <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>"> -->
+                                        <img src="<?php echo dist_path('images/brand/product-lines/gels/logo-gels-pink.svg');?>" alt="<?php _e('E-hydrate Protein Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('E-hydrate Protein Gels', 'sage');?>">
                                     </h5>
                                     <hr class="copysep sep-half">
                                     <p class="product-text-subcopy">Natural energy, BCAAs and electrolytes help fuel your intense workout.</p>
