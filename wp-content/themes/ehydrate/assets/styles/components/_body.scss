@@ -11,6 +11,13 @@ body {
 	}
 }
 
+.container {
+	&.container-default {
+		display: block;
+		padding-bottom: 2rem;
+	}
+}
+
 
 @each $colorKey, $color in $brandColors {
 	.ftc-#{$colorKey} {

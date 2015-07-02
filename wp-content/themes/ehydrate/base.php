@@ -18,31 +18,32 @@ use Roots\Sage\Wrapper;
     ?>
     <div class="wrap wrap-main" role="document">
       
-      <div class="main-hero">
-        <div class="hero" style="background-image:url(<?php echo dist_path('images/bgs/field-runners-comp-1300x866.jpg');?>);">
-          <div class="promo-copy container">
-            <span>BASE TEMPLATE</span>
-            <hr class="copysep sep-half">
-            <a class="btn btn-blue btn-xlg" href="https://e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/">Try E-Hydrate for Free</a>
-          </div>
-          <!-- <div class="promo-copy container"></div> -->
-        </div>
-        <!-- https://e-hydrate.com/wp/wp-content/uploads/2015/04/fruit-water-splash-banner_1584x528-C.jpg -->
-      </div><!-- end main-hero -->
+      <?php if (Config\display_sidebar()) : ?>
+
+        <div class="container container-default">
+          <div class="content row">
+            
+            <div class="col-md-8">
+              <main class="main-content" role="main">
+                <?php include Wrapper\template_path(); ?>
+              </main><!-- /.main -->
+            </div>
+            
+            <div class="col-md-4">
+              <aside class="sidebar sidebar-main" role="complementary">
+                <?php include Wrapper\sidebar_path(); ?>
+              </aside><!-- /.sidebar -->
+            </div>
+
+          </div><!-- end .content -->
+        </div><!-- end .container -->
+      
+      <?php else : ?>
+      
       
 
-      <div class="container">
-        <div class="content row">
-          <main class="main" role="main">
-            <?php include Wrapper\template_path(); ?>
-          </main><!-- /.main -->
-          <?php if (Config\display_sidebar()) : ?>
-            <aside class="sidebar" role="complementary">
-              <?php include Wrapper\sidebar_path(); ?>
-            </aside><!-- /.sidebar -->
-          <?php endif; ?>
-        </div><!-- /.content -->
-      </div>
+      <?php endif; ?>
+
     </div><!-- /.wrap -->
     <?php
       get_template_part('templates/footer');

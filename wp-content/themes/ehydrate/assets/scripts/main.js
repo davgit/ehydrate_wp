@@ -142,7 +142,7 @@
     },
     editNavbarClassesOnScroll: function(scrollTopPx) {
       var stpx = (scrollTopPx) ? scrollTopPx : 0;
-      var $headerNavbar = $('body > header .navbar').first();
+      var $headerNavbar = $('body.has-main-hero > header .navbar').first();
       if(!$headerNavbar.length){console.log('no navbar to target');return false;}
       if (stpx > 75) {
         $headerNavbar.removeClass('navbar-lg navbar-transparent').addClass('navbar-fixed-top');

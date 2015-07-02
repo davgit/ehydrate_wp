@@ -20,6 +20,19 @@ function body_class($classes) {
     $classes[] = 'sidebar-primary';
   }
 
+  // determine to add 'has-main-hero' so we can display correct navbar classes
+  if(is_home() || is_front_page()){
+    $classes[] = 'has-main-hero';
+  }
+
+
+  // add page template slug back in
+  $theId = get_the_ID();
+  if($theId) {
+    $ptlSlug = get_page_template_slug( $theId );
+    $classes[] = ($ptlSlug !== '') ? $ptlSlug : 'ptl-default';
+  }
+
   return $classes;
 }
 add_filter('body_class', __NAMESPACE__ . '\\body_class');

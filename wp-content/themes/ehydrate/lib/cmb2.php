@@ -8,9 +8,28 @@ add_action( 'cmb2_init', 'theme_register_cmb2_metaboxes' );
 function theme_register_cmb2_metaboxes() {
 
 	$prefix = '_ehydrate_';
-	/**
-	 * Sample metabox to demonstrate each field type included
-	 */
+	
+	$cmb_demo = new_cmb2_box( array(
+		'id'            => $prefix . 'page_options_metabox',
+		'title'         => __( 'Page Options', 'sage' ),
+		'object_types'  => array( 'page' ), // Post type
+		'context'       => 'normal',
+		'priority'      => 'high',
+		'show_names'    => true, // Show field names on the left
+		// 'cmb_styles' => false, // false to disable the CMB stylesheet
+		// 'closed'     => true, // true to keep the metabox closed by default
+	) );
+
+		$cmb_demo->add_field( array(
+			'name'       => __( 'Page Display Title', 'sage' ),
+			'desc'       => __( 'The title to display on the page (defaults to Page Title above)', 'sage' ),
+			'id'         => $prefix . 'page_options_page_display_title',
+			'type'       => 'text',
+		) );
+
+
+
+
 	$cmb_demo = new_cmb2_box( array(
 		'id'            => $prefix . 'test_metabox',
 		'title'         => __( 'Test Metabox', 'sage' ),

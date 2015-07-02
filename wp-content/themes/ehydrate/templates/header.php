@@ -1,6 +1,15 @@
-<header class="banner absolute" role="banner">
+<?php
+$headerClassesDefault = array('banner');
+$headerClassesExtra = (is_home() || is_front_page()) ? array('absolute') : array();
+$headerClasses = array_merge($headerClassesDefault, $headerClassesExtra);
+
+$navbarMainClassesDefault = array('navbar', 'navbar-green');
+$navbarMainClassesExtra = (is_home() || is_front_page()) ? array('navbar-lg', 'navbar-transparent') : array();
+$navbarMainClasses = array_merge($navbarMainClassesDefault, $navbarMainClassesExtra);
+?>
+<header class="<?php echo implode($headerClasses, ' ');?>" role="banner">
   
-    <nav class="navbar navbar-lg navbar-transparent navbar-green">
+    <nav class="<?php echo implode($navbarMainClasses, ' ');?>">
       <div class="container">    
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary_nav_collapse_1">
