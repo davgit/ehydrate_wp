@@ -12,7 +12,7 @@ function theme_register_cmb2_metaboxes() {
 	$cmb_demo = new_cmb2_box( array(
 		'id'            => $prefix . 'page_options_metabox',
 		'title'         => __( 'Page Options', 'sage' ),
-		'object_types'  => array( 'page' ), // Post type
+		'object_types'  => array( 'page', 'post' ), // Post type
 		'context'       => 'normal',
 		'priority'      => 'high',
 		'show_names'    => true, // Show field names on the left
@@ -21,9 +21,9 @@ function theme_register_cmb2_metaboxes() {
 	) );
 
 		$cmb_demo->add_field( array(
-			'name'       => __( 'Page Display Title', 'sage' ),
-			'desc'       => __( 'The title to display on the page (defaults to Page Title above)', 'sage' ),
-			'id'         => $prefix . 'page_options_page_display_title',
+			'name'       => __( 'Page/Post Display Title', 'sage' ),
+			'desc'       => __( 'The title to display on the page/Post (defaults to "Title" above)', 'sage' ),
+			'id'         => $prefix . 'post_options_page_display_title',
 			'type'       => 'text',
 		) );
 
