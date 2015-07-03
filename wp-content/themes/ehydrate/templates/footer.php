@@ -6,11 +6,15 @@
 					<div class="col-md-4">
 						<h4 class="footer-list-t1-header">Navigate</h4>
 						<ul class="footer-list-t1">
-							<li><a title="Home" href="<?php echo get_bloginfo('url'); ?>"><?php _e('Home', 'sage');?></a></li>
+							<?php $homeId = get_option('page_on_front');?>
+							<li><a title="<?php echo get_the_title($homeId); ?>" href="<?php echo get_permalink($homeId); ?>"><?php echo get_the_title($homeId); ?></a></li>
 							<li><a title="Try For Free" href="https://shop.e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/"><?php _e('Try For Free', 'sage');?></a></li>
-							<li><a title="Product Overview" href="https://shop.e-hydrate.com/e-hydrate-product-overview/"><?php _e('Product Overview', 'sage');?></a></li>
-							<li><a title="Contact Us" href="https://shop.e-hydrate.com/contact-us/"><?php _e('Contact Us', 'sage');?></a></li>
-							<li><a title="FAQ" href="https://shop.e-hydrate.com/contact-us/"><?php _e('FAQ', 'sage');?></a></li>
+							<!-- product-overview: -->
+							<li><a title="<?php echo get_the_title(31); ?>" href="<?php echo get_permalink(31); ?>"><?php echo get_the_title(31); ?></a></li>
+							<!-- contact-us: -->
+							<li><a title="<?php echo get_the_title(56); ?>" href="<?php echo get_permalink(56); ?>"><?php echo get_the_title(56); ?></a></li>
+							<!-- faq: -->
+							<li><a title="<?php echo get_the_title(16); ?>" href="<?php echo get_permalink(16); ?>"><?php echo get_the_title(16); ?></a></li>
 						</ul>
 					</div>
 					<div class="col-md-4">
@@ -19,7 +23,8 @@
 							<li><a title="My Account" href="https://shop.e-hydrate.com/my-account/"><?php _e('My Account', 'sage');?></a></li>
 							<li><a title="Shipping" href="https://shop.e-hydrate.com/shipping-returns/"><?php _e('Shipping', 'sage');?></a></li>
 							<li><a title="Returns" href="https://shop.e-hydrate.com/shipping-returns/"><?php _e('Returns', 'sage');?></a></li>
-							<li><a title="Privacy Policy" href="https://shop.e-hydrate.com/privacy-policy/"><?php _e('Privacy Policy', 'sage');?></a></li>
+							<!-- privacy-policy: -->
+							<li><a title="<?php echo get_the_title(24); ?>" href="<?php echo get_permalink(24); ?>"><?php echo get_the_title(24); ?></a></li>
 						</ul>
 					</div>
 					<div class="col-md-4">
