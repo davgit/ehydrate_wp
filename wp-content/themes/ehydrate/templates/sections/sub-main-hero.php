@@ -241,14 +241,16 @@
 */
 ?>
 
+<?php /* hide instansive until upgrade plugin loads via https.
 <section data-section="instagram-feed-main" class="section-style-gray_light">
     <div class="container-no-pad" style="margin-top: -1px;">
         <div class="content row-fluid">
-            <script src="//instansive.com/widget/js/instansive.js"></script>
+            <script src="https://instansive.com/widget/js/instansive.js"></script>
             <iframe src="//instansive.com/widgets/cd3ebd7a1df5ee737ff293684156c1bc9bff5f79.html" id="instansive_cd3ebd7a1d" name="instansive_cd3ebd7a1d"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
+*/ ?>
 
 <?php /* Hiding Kids Video Section for now
 <section data-section="kids-main" class="section-padded-xxl section-style-gray_light">
