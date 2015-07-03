@@ -51,7 +51,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-blue" href="https://e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Get Started</a>
+                                            <a class="product-link btn btn-lg btn-blue" href="https://shop.e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-green" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>
+                                            <a class="product-link btn btn-lg btn-green" href="https://shop.e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-pink" href="https://e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try It Now</a>        
+                                            <a class="product-link btn btn-lg btn-pink" href="https://shop.e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try It Now</a>        
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-brown" href="https://e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Get Started</a>
+                                            <a class="product-link btn btn-lg btn-brown" href="https://shop.e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +226,7 @@
                 <h3 class="section-header h2 fw-bold">What Sport<br> Do You Play?</h3>
                 <p class="product-text-subcopy">We know that your life is demanding, that's why we make natural products that taste incredible and are easy to enjoy. Whether you're a working mother, grad student, firefighter or entrepreneur, E-hydrate helps you fee your best -- no matter what sport you play.</p>
                 <hr class="copysep sep-half">
-                <a class="try-it-link btn btn-green btn-lg" href="https://e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
+                <a class="try-it-link btn btn-green btn-lg" href="https://shop.e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
             </div>
             <div class="col-md-7">
                 <div class="vid-wrap">
@@ -259,7 +259,7 @@
                 <h3 class="section-header h2 fw-bold">Don't Worry When "Accidents" Happen</h3>
                 <p class="product-text-subcopy">KIDS E-hydrate doesn't contain any colors, artificial sweeteners or flavors. That's not just good news for your kids, it's good news for your furniture.</p>
                 <hr class="copysep sep-half">
-                <a class="try-it-link btn btn-green btn-lg" href="https://e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
+                <a class="try-it-link btn btn-green btn-lg" href="https://shop.e-hydrate.com/e-hydrate-product-overview/">Try It Or By It</a>
             </div>
         </div><!-- end .row -->
     </div><!-- end .container -->
@@ -275,19 +275,19 @@
         		<h3 class="section-header h3">Product Overview</h3>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eaque sapiente voluptatibus assumenda voluptas aliquid voluptatum.</p>
         		<hr class="copysep sep-half">
-        		<a class="btn btn-green" href="https://e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
+        		<a class="btn btn-green" href="https://shop.e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
         	</div>
         	<div class="col-md-4">
         		<h3 class="section-header">All About BCAAs</h3>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eius modi velit nisi hic perspiciatis, facilis quae, iste dolor quidem ab vero!</p>
         		<hr class="copysep sep-half">
-        		<a class="btn btn-green" href="https://e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
+        		<a class="btn btn-green" href="https://shop.e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
         	</div>
         	<div class="col-md-4">
         		<h3 class="section-header">All About Hydration</h3>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quam atque, animi ullam necessi tatibus vero accusantium incidunt eveniet, id.</p>
         		<hr class="copysep sep-half">
-        		<a class="btn btn-green" href="https://e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
+        		<a class="btn btn-green" href="https://shop.e-hydrate.com/e-hydrate-product-overview/">Learn More</a>
         	</div>
         </div><!-- end .row -->
     </div><!-- end .container -->
