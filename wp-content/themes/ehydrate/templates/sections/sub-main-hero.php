@@ -219,6 +219,8 @@
     </div><!-- end .container -->
 </section><!-- end section -->
 
+<?php
+/* Video not ready, hide for now
 <section data-section="what-sport-do-i-play-main" class="section-padded-xl section-style-gray_light">
     <div class="container">
         <div class="content row">
@@ -236,6 +238,8 @@
         </div><!-- end .row -->
     </div><!-- end .container -->
 </section><!-- end section -->
+*/
+?>
 
 <section data-section="instagram-feed-main" class="section-style-gray_light">
     <div class="container-no-pad" style="margin-top: -1px;">
