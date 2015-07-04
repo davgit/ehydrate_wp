@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-7">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-sm-4">
 						<h4 class="footer-list-t1-header">Navigate</h4>
 						<ul class="footer-list-t1">
 							<?php $homeId = get_option('page_on_front');?>
@@ -17,7 +17,7 @@
 							<li><a title="<?php echo get_the_title(16); ?>" href="<?php echo get_permalink(16); ?>"><?php echo get_the_title(16); ?></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4">
+					<div class="col-sm-4">
 						<h4 class="footer-list-t1-header">Store Help</h4>
 						<ul class="footer-list-t1">
 							<li><a title="My Account" href="http://shop.e-hydrate.com/my-account/"><?php _e('My Account', 'sage');?></a></li>
@@ -27,7 +27,7 @@
 							<li><a title="<?php echo get_the_title(24); ?>" href="<?php echo get_permalink(24); ?>"><?php echo get_the_title(24); ?></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4">
+					<div class="col-sm-4">
 						<h4 class="footer-list-t1-header">Social</h4>
 						<ul class="footer-list-t1">
 							<li><a href="https://www.facebook.com/ehydrate" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>

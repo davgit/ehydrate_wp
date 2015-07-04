@@ -138,3 +138,15 @@ footer {
 		margin: 30px 16px 0 16px;
 	}
 }
+
+@media (max-width: $screen-sm-min) {
+	.footer-list-t1 {
+		padding-bottom: 3rem;
+	}
+}
+
+@media (max-width: $screen-md-min) {
+	.footer-signup {
+		padding-top: 3rem;
+	}
+}

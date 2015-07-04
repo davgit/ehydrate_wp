@@ -97,43 +97,6 @@ section {
          color:map-get($brandColors, "gray");
       }
       
-      .hydate-icons-list {
-        display: block;
-        width:70%;
-        margin:30px auto;
-        
-        .hydrate-icon-wrap {
-          position:relative;
-          display:inline-block;
-          padding:20px;
-          font-size:0;
-          line-height:normal;
-          width:184px;
-          height:auto;
-          
-          &:last-child{
-            width:216px;
-          }
-          .hydrate-icon {
-            width:100%;
-            height:auto;
-          }
-          .hydrate-icon-svg {
-            path {
-              fill:map-get($brandColors, "green_dark");
-            }
-          }
-        }
-
-        .btn {
-          // -webkit-animation-direction: normal;
-          // -webkit-animation-duration: 20s;
-          // -webkit-animation-iteration-count: infinite;
-          // -webkit-animation-name: bgcolor-animate-from-gray;
-          // -webkit-animation-timing-function: ease;
-        }
-
-      }
   	}
 
     &[data-section="sub-main-hero-three"] {

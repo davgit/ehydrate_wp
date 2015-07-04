@@ -1,0 +1,61 @@
+.hydate-icons-list {
+  display: block;
+  width:100%;
+  text-align: center;
+  margin:30px auto;
+  
+  .hydrate-icon-wrap {
+    position:relative;
+    display:inline-block;
+    padding:20px;
+    font-size:0;
+    line-height:normal;
+    width:184px;
+    height:auto;
+    
+    &:last-child{
+      width:216px;
+    }
+    .hydrate-icon {
+      width:100%;
+      height:auto;
+    }
+    .hydrate-icon-svg {
+      path {
+        fill:map-get($brandColors, "green_dark");
+      }
+    }
+  }
+}
+
+// 768px
+@media (min-width: $grid-float-breakpoint) {
+  .hydate-icons-list {
+    .hydrate-icon-wrap {
+      
+    }
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .hydate-icons-list {
+    .hydrate-icon-wrap {
+      width:154px;
+      &:last-child{
+        width:178px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
+  .hydate-icons-list {
+    .hydrate-icon-wrap {
+      width:170px;
+      &:last-child{
+        width:200px;
+      }
+    }
+  }
+}

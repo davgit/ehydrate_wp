@@ -25,7 +25,7 @@
                     <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
                                         <img src="<?php echo dist_path('images/brand/product-lines/protein-on-the-go/logo-protein-on-the-go-blue-flat.svg');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-logo-img" title="<?php _e('Protein On The Go', 'sage');?>">
@@ -56,7 +56,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-line-product-img-wrap">
                                     <img src="<?php echo dist_path('images/brand/product-lines/protein-on-the-go/product-protein-on-the-go--408x500.png');?>" alt="<?php _e('Protein On The Go', 'sage');?>" class="product-line-product-img"  title="<?php _e('Protein On The Go', 'sage');?>">
                                 </div>
@@ -69,12 +69,12 @@
                     <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-line-product-img-wrap">
                                     <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/product-adult-hydration--360x374.png');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
                                         <img src="<?php echo dist_path('images/brand/product-lines/adult-hydration/logo-adult-drink-mix-purple.svg');?>" alt="<?php _e('Adult Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Adult Hydration Drink Mix', 'sage');?>">
@@ -114,7 +114,7 @@
                     <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
                                         <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/logo-kids-drink-mix-pink.svg');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-logo-img" title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
@@ -145,7 +145,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-line-product-img-wrap">
                                     <img src="<?php echo dist_path('images/brand/product-lines/kids-hydration/product-kids-hydration--360x367.png');?>" alt="<?php _e('Kids Hydration Drink Mix', 'sage');?>" class="product-line-product-img"  title="<?php _e('Kids Hydration Drink Mix', 'sage');?>">
                                 </div>
@@ -158,12 +158,12 @@
                     <div class="section-bg-overlay"></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-line-product-img-wrap">
                                     <img src="<?php echo dist_path('images/brand/product-lines/gels/product-gels--370x380.png');?>" alt="<?php _e('E-hydrate Protein Gels', 'sage');?>" class="product-line-product-img"  title="<?php _e('E-hydrate Protein Gels', 'sage');?>">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="product-text">
                                     <h5 class="product-text-header">
                                         <!-- <img src="<?php echo '//placeholdit.imgix.net/~text?bg=663b28&txtsize=33&txt=GELS+PRODUCT+LOGO&w=460&h=160';?>" alt="<?php _e('Gels', 'sage');?>" class="product-line-logo-img" title="<?php _e('Gels', 'sage');?>"> -->
