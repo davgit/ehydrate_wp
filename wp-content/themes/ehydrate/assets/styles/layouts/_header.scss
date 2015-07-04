@@ -24,6 +24,7 @@ header {
 		padding:($navbar-padding-vertical - 16) $navbar-padding-horizontal ($navbar-padding-vertical - 12);
 		width:196px;
 		height: auto;
+		z-index: 1;
 		> img {
 			display: block;
 			min-width: 125px;
