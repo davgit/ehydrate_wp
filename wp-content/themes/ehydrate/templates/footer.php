@@ -42,6 +42,8 @@
 			<div class="col-md-5">
 				<div class="row">
 					<div class="col-sm-12">
+						<?php
+						/* hide footer signup form for now.
 						<div class="footer-signup">
 							<h4 class="footer-signup-header">Sign Up for Special Offers</h4>
 							<p class="footer-signup-subcopy">Stay up to date with the latest offers and promotions for E-hydrate products.</p>
@@ -53,6 +55,8 @@
 								<button type="submit" class="btn btn-white">Submit</button>
 							</form>
 						</div>
+						*/
+						?>
 					</div>
 				</div>
 				<div class="footer-copyright">
