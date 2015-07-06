@@ -15,11 +15,16 @@ if ( function_exists( $cl ) )
 function load_mobile_detect()
 {	
 	if(!class_exists('Mobile_Detect') && isset($_SERVER['DOCUMENT_ROOT'])){
-		require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';	
+		$filePath = $_SERVER['DOCUMENT_ROOT'] . '/vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';
+		if(!file_exists($filePath)) {
+			log('mobile detect script missing');
+		}
+		require_once $filePath;	
 	}
 	
 	if(!class_exists('Mobile_Detect')) {
-		throw new Exception('No Mobile Detect class detected', 1);
+		log('mobile detect class missing');
+		// throw new Exception('No Mobile Detect class detected', 1);
 	}
 
 	global $mobile_detect;
