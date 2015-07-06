@@ -51,7 +51,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-blue" href="https://shop.e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Get Started</a>
+                                            <a class="product-link btn btn-lg btn-blue" href="https://shop.e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Find Out More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-pink" href="https://shop.e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Try It Now</a>        
+                                            <a class="product-link btn btn-lg btn-pink" href="https://shop.e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>        
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-brown" href="https://shop.e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Get Started</a>
+                                            <a class="product-link btn btn-lg btn-brown" href="https://shop.e-hydrate.com/product/e-hydrate-energy-gels-24-pack">Find Out More</a>
                                         </div>
                                     </div>
                                 </div>
