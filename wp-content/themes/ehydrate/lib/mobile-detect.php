@@ -14,20 +14,21 @@ if ( function_exists( $cl ) )
 
 function load_mobile_detect()
 {	
+	global $mobile_detect;
+
 	if(!class_exists('Mobile_Detect') && isset($_SERVER['DOCUMENT_ROOT'])){
 		$filePath = $_SERVER['DOCUMENT_ROOT'] . '/vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';
 		if(!file_exists($filePath)) {
-			log('mobile detect script missing');
+			error_log('mobile detect script missing');
+		} else {
+			require_once $filePath;	
 		}
-		require_once $filePath;	
 	}
 	
 	if(!class_exists('Mobile_Detect')) {
-		log('mobile detect class missing');
-		// throw new Exception('No Mobile Detect class detected', 1);
+		error_log('mobile detect class missing');
 	}
-
-	global $mobile_detect;
+	
 	$mobile_detect = new Mobile_Detect();
 }
 
@@ -54,6 +55,10 @@ function add_mobile_body_classes($classes) {
 	// 	'single' => is_single(),
 	// 	'sticky' => is_sticky(),
 	// );
+
+	if(!$mobile_detect || !is_object($mobile_detect)) {
+		return;
+	}
 
 	foreach (array( 'mobile', 'phone', 'tablet' ) as $mobile_class) {
 		$slug = 'is-' . $mobile_class;
