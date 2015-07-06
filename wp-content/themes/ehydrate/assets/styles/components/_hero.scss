@@ -19,7 +19,7 @@
 	  left: 0;
 	  right: 0;
 	  bottom:0;
-	  padding: 32px 16px 70px 16px;
+	  padding: 32px 16px 32px 16px;
 	  color: #fff;
 	  font-weight: 400;
 	  
@@ -35,8 +35,8 @@
 			}
 		}
 		.headline-main {
-			font-size: 3.5rem;
-	  		line-height: 5rem;
+			font-size: 3rem;
+	  		line-height: 4rem;
 	  		font-weight:900;
 	  		text-transform: uppercase;
 	  		text-shadow: 0 2px 2px rgba(0,0,0,0.5);
@@ -84,7 +84,12 @@
 		height: 440px;
 		padding-bottom: 0;
 		.promo-copy {
+			padding-bottom: 50px;
 			
+			.headline-main {
+				font-size: 3.5rem;
+	  			line-height: 5rem;
+	  		}
 		}
 	}
 
@@ -105,7 +110,8 @@
 		padding-bottom: 0;
   		height: 600px;
   		.promo-copy {
-  			
+  			padding-bottom: 70px;
+
   			&.main-promo-copy {
 				bottom:5%;
 			}

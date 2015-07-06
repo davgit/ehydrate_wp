@@ -53,7 +53,7 @@
   $navLinkDisabledColor: darken($navColor, 10%);
   $navLinkDisabledBg: transparent;
   $navToggleBorderColor: transparent;
-  $navToggleBg: lighten($navBg, 3%);
+  $navToggleBg: getComplementBrandColorFromColor($styleColor, 30%, 15%);
   $navToggleHoverBg: lighten($navToggleBg, 3%);
   $navToggleIconBarBg: map-get($brandColors, "white");
 
@@ -242,11 +242,11 @@
       }
 
       .navbar-toggle {
-        background-color: $navToggleBg;
+        background-color: transparent;//$navToggleBg;
         border-color: $navToggleBorderColor;
         &:hover,
         &:focus {
-          background-color: $navToggleHoverBg;
+          background-color: transparent; //$navToggleHoverBg;
         }
         .icon-bar {
           background-color: $navToggleIconBarBg;

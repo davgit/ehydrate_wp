@@ -1,10 +1,8 @@
-@function getComplementBrandColorFromColor($color, $pct:15%) {
+@function getComplementBrandColorFromColor($color, $lightPct:40%, $darkPct:56%) {
     @if (lightness( $color ) > 60) {
-      //@return #000000; // Lighter color, return black
-      @return darken($color, 40%)
+      @return darken($color, $lightPct)
     } @else {
-      //@return #FFFFFF; // Darker color, return white
-      @return lighten($color, 56%)
+      @return lighten($color, $darkPct)
     }
 }
 

@@ -17,6 +17,7 @@ $sage_includes = [
   'lib/config.php',                // Configuration
   'lib/assets.php',                // Scripts and stylesheets
   'lib/titles.php',                // Page titles
+  'lib/mobile-detect.php',         // Mobile Detect
   'lib/extras.php',                // Custom functions
   'lib/wp_bootstrap_navwalker.php',// Bootstrap nav restored
 ];
@@ -25,7 +26,7 @@ if ( file_exists(  __DIR__ . '/lib/cmb2/init.php' ) ) {
   //require_once  __DIR__ . '/cmb2/init.php';
   $sage_includes[] = 'lib/cmb2/init.php';
   $sage_includes[] = 'lib/cmb2.php';
-} 
+}
 
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
@@ -35,7 +36,6 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
-
 
 
 function dist_path($filename){
