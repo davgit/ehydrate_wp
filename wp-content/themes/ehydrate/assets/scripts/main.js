@@ -23,8 +23,11 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
-        UTIL.replaceSvgImgWithInlineSvg();
-        UTIL.windowScrollTimer();
+        UTIL.funcs.replaceSvgImgWithInlineSvg();
+        UTIL.funcs.windowScrollTimer();
+        UTIL.funcs.mobileDetectInit();
+
+        console.log(UTIL.helpers.mobileDetect);
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -35,25 +38,35 @@
       init: function() {
         // JavaScript to be fired on the home page
         var $wpGlobals = window.wpGlobals;
-        console.log($wpGlobals);
+        //console.log($wpGlobals);
         var $mainHeroHome = $('#main-hero-home');
         if($mainHeroHome.length && $mainHeroHome.find('.hero.hero-video').length) {
-          console.log('main hero exists');
-          $mainHeroHome.vide({
-            mp4: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.mp4', //'http://vodkabears.github.io/vide/video/ocean.mp4',
-            webm: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.webm', //'http://vodkabears.github.io/vide/video/ocean.webm',
-            ogv: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.ogv', //'http://vodkabears.github.io/vide/video/ocean.ogv',
-            poster: $wpGlobals.videosUri + '/main-hero/runner-a/Runner-A-HD.jpg' //'http://vodkabears.github.io/vide/video/ocean.jpg'
-          }, {
-            volume: 0,
-            playbackRate: 1,
-            muted: true,
-            loop: true,
-            autoplay: true,
-            position: '50% 50%', // Similar to the CSS `background-position` property.
-            posterType: 'jpg', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
-            resizing: true // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
+          //console.log('main hero present');
+          //console.log($wpGlobals.heroMain.video.sources.poster);
+          var md = UTIL.helpers.mobileDetect;
+          console.log(md.phone());
+          $mainHeroHome.css({
+            'background-image':'url(' + $wpGlobals.heroMain.video.sources.poster + ')',
+            'background-color': '#2c2a40',
+            'background-attachment': 'scroll',
+            'background-position': 'center center',
+            'background-size': 'cover'
           });
+
+          // initiate hero vide if user is not on a phone
+          if(! md.phone()) {
+            $mainHeroHome.vide($wpGlobals.heroMain.video.sources,
+            {
+              volume: 0,
+              playbackRate: 1,
+              muted: true,
+              loop: true,
+              autoplay: true,
+              position: '50% 50%', // Similar to the CSS `background-position` property.
+              posterType: 'jpg', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
+              resizing: true // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
+            });
+          }
         } // end if
 
       },
@@ -97,58 +110,70 @@
       // Fire common finalize JS
       UTIL.fire('common', 'finalize');
     },
-    replaceSvgImgWithInlineSvg: function() {
-      console.log('replacing all svg imgs with inline svg');
-      jQuery('img[src$=".svg"]').each(function(){
-          var $img = jQuery(this);
-          var imgID = $img.attr('id');
-          var imgClass = $img.attr('class');
-          var imgURL = $img.attr('src');
-  
-          jQuery.get(imgURL, function(data) {
-              // Get the SVG tag, ignore the rest
-              var $svg = jQuery(data).find('svg');
-  
-              // Add replaced image's ID to the new SVG
-              if(typeof imgID !== 'undefined') {
-                  $svg = $svg.attr('id', imgID);
-              }
-              // Add replaced image's classes to the new SVG
-              if(typeof imgClass !== 'undefined') {
-                  $svg = $svg.attr('class', imgClass+' replaced-svg');
-              }
-              
-              // Remove any invalid XML tags as per http://validator.w3.org
-              $svg = $svg.removeAttr('xmlns:a');
-              
-              // Replace image with new SVG
-              $img.replaceWith($svg);
-          });
+    helpers : {
+      mobileDetect:null,
+    },
+    funcs: {
+      mobileDetectInit:function(){
+        var md = new MobileDetect(window.navigator.userAgent);
+        if(! UTIL.helpers.mobileDetect) {
+          UTIL.helpers.mobileDetect = md;
+        }
+        return md;
+      },
+      replaceSvgImgWithInlineSvg: function() {
+        //console.log('replacing all svg imgs with inline svg');
+        jQuery('img[src$=".svg"]').each(function(){
+            var $img = jQuery(this);
+            var imgID = $img.attr('id');
+            var imgClass = $img.attr('class');
+            var imgURL = $img.attr('src');
+    
+            jQuery.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+    
+                // Add replaced image's ID to the new SVG
+                if(typeof imgID !== 'undefined') {
+                    $svg = $svg.attr('id', imgID);
+                }
+                // Add replaced image's classes to the new SVG
+                if(typeof imgClass !== 'undefined') {
+                    $svg = $svg.attr('class', imgClass+' replaced-svg');
+                }
+                
+                // Remove any invalid XML tags as per http://validator.w3.org
+                $svg = $svg.removeAttr('xmlns:a');
+                
+                // Replace image with new SVG
+                $img.replaceWith($svg);
+            });
 
-      });
-    },
-    windowScrollTimer: function() {
-      var $window = $(window);
-      $window.scroll(function() {
-          clearTimeout($.data(this, 'scrollTimer'));
-          $.data(this, 'scrollTimer', setTimeout(function() {
-              console.log("Fired scrollTimer after 140ms");
-              var $scrollTopPx = $(window).scrollTop();
-              console.log($scrollTopPx);
-              UTIL.editNavbarClassesOnScroll($scrollTopPx);
-          }, 140));
-      });
-      $window.trigger('scroll');
-    },
-    editNavbarClassesOnScroll: function(scrollTopPx) {
-      var stpx = (scrollTopPx) ? scrollTopPx : 0;
-      var $headerNavbar = $('body.has-main-hero > header .navbar').first();
-      if(!$headerNavbar.length){console.log('no navbar to target');return false;}
-      if (stpx > 75) {
-        $headerNavbar.removeClass('navbar-lg navbar-transparent').addClass('navbar-fixed-top');
-      }
-      if (stpx < 76) {
-        $headerNavbar.addClass('navbar-lg navbar-transparent').removeClass('navbar-fixed-top');
+        });
+      },
+      windowScrollTimer: function() {
+        var $window = $(window);
+        $window.scroll(function() {
+            clearTimeout($.data(this, 'scrollTimer'));
+            $.data(this, 'scrollTimer', setTimeout(function() {
+                //console.log("Fired scrollTimer after 140ms");
+                var $scrollTopPx = $(window).scrollTop();
+                //console.log($scrollTopPx);
+                UTIL.funcs.editNavbarClassesOnScroll($scrollTopPx);
+            }, 140));
+        });
+        $window.trigger('scroll');
+      },
+      editNavbarClassesOnScroll: function(scrollTopPx) {
+        var stpx = (scrollTopPx) ? scrollTopPx : 0;
+        var $headerNavbar = $('body.has-main-hero > header .navbar').first();
+        if(!$headerNavbar.length){console.log('no navbar to target');return false;}
+        if (stpx > 75) {
+          $headerNavbar.removeClass('navbar-lg navbar-transparent').addClass('navbar-fixed-top');
+        }
+        if (stpx < 76) {
+          $headerNavbar.addClass('navbar-lg navbar-transparent').removeClass('navbar-fixed-top');
+        }
       }
     }
   };

@@ -1,4 +1,4 @@
-<div id="main-hero-home" class="main-hero" style="background-color:#2c2a40;">
+<div id="main-hero-home" class="main-hero">
   <div class="hero hero-video">
   	<?php 
   	/* for video: hero-video */

@@ -80,6 +80,16 @@ function assets() {
     'themeUri' => get_stylesheet_directory_uri(),
     'distUri' => get_stylesheet_directory_uri() . '/dist',
     'videosUri' => get_stylesheet_directory_uri() . '/dist/videos',
+    'heroMain' => array(
+      'video' => array(
+        'sources' => array(
+          'mp4' => get_stylesheet_directory_uri() . '/dist/videos/main-hero/runner-a/Runner-A-HD.mp4',
+          'webm' => get_stylesheet_directory_uri() . '/dist/videos/main-hero/runner-a/Runner-A-HD.webm',
+          'ogv' => get_stylesheet_directory_uri() . '/dist/videos/main-hero/runner-a/Runner-A-HD.ogv',
+          'poster' => get_stylesheet_directory_uri() . '/dist/videos/main-hero/runner-a/Runner-A-HD.jpg'
+        )
+      )
+    )
   );
   wp_localize_script( 'sage_js', 'wpGlobals', $translation_array );
 }

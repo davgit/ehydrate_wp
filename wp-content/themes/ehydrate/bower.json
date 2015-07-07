@@ -12,7 +12,8 @@
     "bootstrap-sass-official": "3.3.4",
     "fontawesome": "~4.3.0",
     "paymentfont": "~1.1.2",
-    "vide": "~0.3.5"
+    "vide": "~0.3.5",
+    "mobile-detect": "hgoebl/mobile-detect.js#~1.2.0"
   },
   "overrides": {
     "modernizr": {

@@ -4,7 +4,7 @@
       "files": [
         "scripts/main.js"
       ],
-      "bower": ["vide"],
+      "bower": ["vide", "mobile-detect"],
       "vendor": [
         "bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"
       ],

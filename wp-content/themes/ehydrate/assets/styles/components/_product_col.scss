@@ -83,7 +83,8 @@
 			}
 
 			.product-line-logo-img {
-				width:372px;
+				min-width:370px;
+				max-width:372px;
 				path {
 					// disable for now, use somewhere else perhaps
 					// animation:         fill-animate-adult-drink-mix-colors-from-green 20s infinite; /* IE 10+, Fx 29+ */
@@ -101,7 +102,8 @@
 				max-width: 360px;
 			}
 			.product-line-logo-img {
-				width:350px;
+				min-width:350px;
+				max-width:350px;
 			}
 			.copysep.sep-half {
 				border-color: #BBBBBB;
@@ -119,7 +121,8 @@
 			}
 
 			.product-line-logo-img {
-				width:372px;
+				min-width:372px;
+				max-width:372px;
 				path {}
 			}
 		}
@@ -296,6 +299,11 @@
 			margin-left:0;
 			margin-right:0;
 			margin-bottom: 1.5rem;
+			max-width: 100%!important;
+		}
+		.product-line-logo-img {
+			min-width: 100%!important;
+			max-width: 100%!important;
 		}
 	}
 }
