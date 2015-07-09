@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-pink" href="https://shop.e-hydrate.com/product/e-hydrate-energy-hydration-drink-mix-30-pack-box/">Find Out More</a>        
+                                            <a class="product-link btn btn-lg btn-pink" href="https://shop.e-hydrate.com/product/kids-hydration-immunity-drink-mix-box/">Find Out More</a>        
                                         </div>
                                     </div>
                                 </div>
