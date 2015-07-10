@@ -7,7 +7,7 @@
     <div class="main-promo-copy promo-copy promo-copy-centered pos-bottom-17pct container">
       <span class="headline-main">Flavor By Nature.<br>Nutrition By Design.</span>
       <hr class="main-hero-copysep copysep sep-half">
-      <a class="main-hero-cta-btn btn btn-orange btn-trnso" href="//shop.e-hydrate.com/product/e-hydrate-drink-mix-sample-pack/">Get a Free Sample Now</a>
+      <a class="main-hero-cta-btn btn btn-orange btn-trnso" href="https://shop.e-hydrate.com/product/try-for-free/">Get a Free Sample Now</a>
     </div><!-- end .promo-copy -->
   </div><!-- end .hero -->
 </div><!-- end main-hero -->
