@@ -8,7 +8,7 @@
 						<ul class="footer-list-t1">
 							<?php $homeId = get_option('page_on_front');?>
 							<li><a title="<?php echo get_the_title($homeId); ?>" href="<?php echo get_permalink($homeId); ?>"><?php echo get_the_title($homeId); ?></a></li>
-							<li><a title="Try For Free" href="https://shop.e-hydrate.com/product/try-for-free/"><?php _e('Try For Free', 'sage');?></a></li>
+							<li><a title="Try For Free" href="https://shop.e-hydrate.com/try-for-free/"><?php _e('Try For Free', 'sage');?></a></li>
 							<!-- product-overview: -->
 							<li><a title="<?php echo get_the_title(31); ?>" href="<?php echo get_permalink(31); ?>"><?php echo get_the_title(31); ?></a></li>
 							<!-- contact-us: -->
