@@ -51,7 +51,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-5">
-                                            <a class="product-link btn btn-lg btn-blue" href="https://shop.e-hydrate.com/product/e-hydrate-protein-on-the-go-3-pack">Find Out More</a>
+                                            <a class="product-link btn btn-lg btn-blue" href="https://shop.e-hydrate.com/product/e-hydrate-protein-on-the-go">Find Out More</a>
                                         </div>
                                     </div>
                                 </div>
